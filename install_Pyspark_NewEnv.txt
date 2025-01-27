@@ -27,6 +27,9 @@ Step 5: python3 -m ipykernel install --user --name=pyspark3_env2 --display-name 
 Check that you have kernel created for jupyter or no using comand below.
 - jupyter kernelspec list
 
+== Open New Terminal and type jupyter notebook
+== On jupyter notebook click new and select newly created kernel and execute the code below.
+
 
 Test code
 
