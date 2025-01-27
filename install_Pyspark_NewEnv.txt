@@ -5,7 +5,7 @@ source pyspark3_env2/bin/activate
 
 
 Step 2: pip install pyspark
-pip install jupyter
+pip install jupyter(not required)
 pip install findspark
 pip install ipykernel
 
