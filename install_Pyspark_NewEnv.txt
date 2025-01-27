@@ -1,0 +1,40 @@
+Step 1: python3 -m venv pyspark3_env2
+
+
+Step 2: pip install pyspark
+pip install jupyter
+pip install findspark
+pip install ipykernel
+
+
+Step 3: sudo nano /etc/environment
+
+Step 4: JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64
+SPARK_HOME=/opt/spark-3.2.3-bin-hadoop3.2
+PATH=$SPARK_HOME/bin:$PATH
+PYSPARK_PYTHON=python3
+PYSPARK_DRIVER_PYTHON=jupyter
+PYSPARK_DRIVER_PYTHON_OPTS="notebook"
+
+
+Step 4: source /etc/envornment
+
+Step 5: python3 -m ipykernel install --user --name=pyspark3_env2 --display-name "Python (PySpark)"
+
+
+Test code
+
+import findspark
+findspark.init()
+
+from pyspark.sql import SparkSession
+
+spark = SparkSession.builder \
+    .appName("PySpark Kernel Test") \
+    .getOrCreate()
+
+data = [("Alice", 25), ("Bob", 30), ("Cathy", 27)]
+columns = ["Name", "Age"]
+df = spark.createDataFrame(data, schema=columns)
+
+df.show()
