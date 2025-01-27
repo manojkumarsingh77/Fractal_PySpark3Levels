@@ -12,9 +12,12 @@ pip install ipykernel
 
 Step 3: sudo nano /etc/environment
 
-Step 4: JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64
+Step 4: 
+JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64
 SPARK_HOME=/opt/spark-3.2.3-bin-hadoop3.2
 PATH=$SPARK_HOME/bin:$PATH
+==============================
+Optional:
 PYSPARK_PYTHON=python3
 PYSPARK_DRIVER_PYTHON=jupyter
 PYSPARK_DRIVER_PYTHON_OPTS="notebook"
