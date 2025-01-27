@@ -20,12 +20,12 @@ PYSPARK_DRIVER_PYTHON=jupyter
 PYSPARK_DRIVER_PYTHON_OPTS="notebook"
 
 
-Step 4: source /etc/envornment
+Step 4: source /etc/environment
 
 Step 5: python3 -m ipykernel install --user --name=pyspark3_env2 --display-name "Python (PySpark)"
 
 Check that you have kernel created for jupyter or no using comand below.
-jupyter kernelspec list
+- jupyter kernelspec list
 
 
 Test code
