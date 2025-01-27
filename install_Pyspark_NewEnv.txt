@@ -1,5 +1,8 @@
 Step 1: python3 -m venv pyspark3_env2
 
+source pyspark3_env2/bin/activate
+
+
 
 Step 2: pip install pyspark
 pip install jupyter
