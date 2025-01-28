@@ -95,3 +95,4 @@ spark.stop()
 
 if __name__ == "__main__":
     main()
+result_df.explain(extended=True)
