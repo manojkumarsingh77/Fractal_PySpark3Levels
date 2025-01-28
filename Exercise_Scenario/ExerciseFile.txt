@@ -41,6 +41,7 @@ Group data loaded from a JSON file by a column and calculate aggregates.
 Business Need: Calculate total transaction amounts grouped by client region.
 Save a DataFrame loaded from a Parquet file into a new partitioned Parquet file.
 Business Need: Reorganize stock data by year and sector for efficient querying.
+
 Topic 2: SQL Queries on DataFrames
 Business Requirements:
 Register a CSV-loaded DataFrame as a temporary table and run a SELECT query.
