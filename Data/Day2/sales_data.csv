@@ -1,0 +1,6 @@
+ClientID,Name,RiskProfile,Product,Amount
+1,Alice,Low,Plan A,1000
+2,Bob,High,Plan B,500
+3,Cathy,Medium,Plan C,1500
+4,David,Low,Plan B,800
+5,Eva,High,Plan A,2000

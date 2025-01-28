@@ -1,0 +1,5 @@
+{"TransactionID": 101, "ClientID": 1, "Amount": 5000, "Type": "Deposit"}
+{"TransactionID": 102, "ClientID": 2, "Amount": 2000, "Type": "Withdrawal"}
+{"TransactionID": 103, "ClientID": 3, "Amount": 7000, "Type": "Deposit"}
+{"TransactionID": 104, "ClientID": 4, "Amount": 3000, "Type": "Withdrawal"}
+{"TransactionID": 105, "ClientID": 5, "Amount": 10000, "Type": "Deposit"}

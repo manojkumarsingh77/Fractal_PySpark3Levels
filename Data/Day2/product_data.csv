@@ -1,0 +1,4 @@
+Product,TargetRisk,CommissionRate
+Plan A,Low,0.05
+Plan B,High,0.08
+Plan C,Medium,0.06

@@ -1,0 +1,6 @@
+ClientID,Name,Age,RiskProfile,AssetsUnderManagement
+1,Alice,45,Low,1000000
+2,Bob,38,High,500000
+3,Cathy,50,Medium,750000
+4,David,29,High,200000
+5,Eva,60,Low,1500000
