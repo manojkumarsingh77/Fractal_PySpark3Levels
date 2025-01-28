@@ -83,3 +83,14 @@ Delete duplicate rows in a DataFrame using SQL.
 Business Need: Ensure no duplicate transactions in compliance reports.
 Save the result of a SQL query into a new Parquet file.
 Business Need: Export aggregated transaction summaries for archival.
+
+
+========================================================================
+
+Case Study: Wealth Management - Mis-Selling Detection
+Business Requirement
+A wealth management firm wants to:
+
+Analyze client profiles, transaction records, and product data to detect potential mis-selling.
+Integrate and query large datasets (100,000 rows) across CSV, JSON, and Parquet formats.
+Perform various aggregations, joins, and filters to create actionable insights for regulatory compliance.
