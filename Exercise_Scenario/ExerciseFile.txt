@@ -95,3 +95,13 @@ A wealth management firm wants to:
 Analyze client profiles, transaction records, and product data to detect potential mis-selling.
 Integrate and query large datasets (100,000 rows) across CSV, JSON, and Parquet formats.
 Perform various aggregations, joins, and filters to create actionable insights for regulatory compliance.
+
+"Datasets used: client_portfolio.csv, transactions.json, product_data (partitioned Parquet)
+# Step 2: Extract the ZIP File
+zip_file_path = "/home/labuser/Downloads/product_data_partitioned.zip"  # Path to the ZIP file
+extracted_dir = "/home/labuser/Downloads/extracted_parquet"  # Directory to extract Parquet files
+
+# Unzip the file
+with zipfile.ZipFile(zip_file_path, 'r') as zip_ref:
+    zip_ref.extractall(extracted_dir)
+print(f"Extracted Parquet files to: {extracted_dir}")
