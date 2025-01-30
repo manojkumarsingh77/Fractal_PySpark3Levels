@@ -1,6 +1,6 @@
 📌Section 1: Handling Missing Data & Type Casting (20 Exercises)
 
-Use this DataSet for below exercises: 
+Use this DataSet for below exercises: inventory_orders.csv - 
 
 #	Exercise	Business Requirement
 
