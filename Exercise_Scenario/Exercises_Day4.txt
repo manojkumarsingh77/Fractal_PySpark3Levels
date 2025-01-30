@@ -1,5 +1,7 @@
 📌Section 1: Handling Missing Data & Type Casting (20 Exercises)
 
+Use this DataSet for below exercises: 
+
 #	Exercise	Business Requirement
 
 1	Replace missing StockLevel with 0.	Ensure missing stock levels do not affect inventory reporting.
