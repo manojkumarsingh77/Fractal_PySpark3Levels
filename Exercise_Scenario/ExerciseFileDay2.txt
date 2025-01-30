@@ -1,6 +1,6 @@
 Domain: Investment Banking and Insurance
 Topic 1: Loading and Exploring DataFrames
-DataSet: Day2_InvestmentBanking_LEDF.zip - 
+DataSet: Day2_InvestmentBanking_LEDF.zip - Exercise_Scenario/Day2_Data/Day2_InvestmentBanking_LEDF.zip
 
 Business Requirements:
 
@@ -47,7 +47,7 @@ Business Requirements:
 ===================================================================================
 Topic 2: SQL Queries on DataFrames
 
-DataSet: Day2_SQL_DF.zip - 
+DataSet: Day2_SQL_DF.zip - Exercise_Scenario/Day2_Data/Day2_SQL_DF.zip
 
 Business Requirements:
 
