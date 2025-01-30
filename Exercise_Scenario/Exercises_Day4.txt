@@ -29,7 +29,7 @@ Use this DataSet for below exercises: inventory_orders.csv - Exercise_Scenario/D
 
 
 📌 Section 2: Joins & Union Operations (20 Exercises)
-
+Use this DataSet for below exercises: inventory_orders.csv - Exercise_Scenario/Day4Data/inventory_orders.csv
 #	Exercise	Business Requirement
 
 1	Perform INNER JOIN on Orders and Inventory.	Retrieve only matching orders and inventory records.
