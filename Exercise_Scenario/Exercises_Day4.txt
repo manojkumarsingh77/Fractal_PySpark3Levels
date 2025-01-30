@@ -1,0 +1,52 @@
+📌Section 1: Handling Missing Data & Type Casting (20 Exercises)
+
+#	Exercise	Business Requirement
+
+1	Replace missing StockLevel with 0.	Ensure missing stock levels do not affect inventory reporting.
+2	Replace missing OrderStatus with "Pending".	Standardize missing statuses to avoid processing errors.
+3	Drop rows where ItemID is null.	Maintain data integrity by removing invalid records.
+4	Drop rows where OrderDate is missing.	Ensure order timestamps are complete for processing.
+5	Fill null Warehouse values with "Unknown".	Maintain warehouse records even if missing.
+6	Convert StockLevel to Integer.	Ensure correct data types for calculations.
+7	Convert Price to Decimal (2 places).	Maintain financial accuracy in reports.
+8	Convert OrderDate to Timestamp.	Ensure date formats are consistent for time-based analysis.
+9	Replace null ReorderLevel with "Not Required".	Identify products that do not need reordering.
+10	Standardize Category column values.	Convert all category names to lowercase for uniformity.
+11	Replace null values in SupplierName with "Unknown Supplier".	Ensure complete supplier details for tracking.
+12	Drop duplicate rows in Orders dataset.	Avoid duplicate order processing.
+13	Identify orders with negative Quantity and replace with 0.	Prevent incorrect stock deductions.
+14	Replace null CustomerID in Orders with "Guest".	Ensure guest orders are accounted for.
+15	Cast OrderID as String.	Ensure consistency in order tracking.
+16	Replace invalid StockLevel values (< 0) with "Out of Stock".	Prevent stock misrepresentation.
+17	Replace OrderStatus="Cancelled" with NULL and drop.	Remove cancelled orders from processing.
+18	Standardize PaymentMethod values.	Convert "Credit Card" to "Credit" for consistency.
+19	Fill missing DispatchDate with "OrderDate + 2 Days".	Ensure estimated delivery timelines.
+20	Drop rows with extreme StockLevel (> 10,000).	Remove outliers for better forecasting.
+
+
+
+
+📌 Section 2: Joins & Union Operations (20 Exercises)
+
+#	Exercise	Business Requirement
+
+1	Perform INNER JOIN on Orders and Inventory.	Retrieve only matching orders and inventory records.
+2	Perform LEFT JOIN on Orders and Customers.	Include all orders, even if no customer data exists.
+3	Perform RIGHT JOIN on Suppliers and Inventory.	Include all inventory items, even those without suppliers.
+4	Perform FULL OUTER JOIN on Orders and Inventory.	Combine all orders and inventory, even without matches.
+5	Join Orders and Payments using CustomerID.	Analyze customer payment behavior.
+6	Join Orders and Returns using OrderID.	Identify returned orders.
+7	Find orders placed in Warehouse_A that have no matching inventory.	Identify stock shortages.
+8	Merge CustomerOrders_2023 and CustomerOrders_2024 using UNION.	Combine two years of customer orders.
+9	Find the most ordered products in multiple warehouses.	Identify top-selling inventory items.
+10	Find suppliers that do not have linked inventory.	Identify missing supplier relationships.
+11	Use EXCEPT to find orders not shipped yet.	Identify pending deliveries.
+12	Use INTERSECT to find customers who placed orders in multiple locations.	Identify frequent buyers across warehouses.
+13	Merge WholesaleOrders and RetailOrders datasets.	Consolidate order sources for revenue analysis.
+14	Perform LEFT JOIN to match Orders with delivery status.	Track shipments for pending orders.
+15	Identify duplicate customer records after merging CustomerDB_1 and CustomerDB_2.	Cleanse and deduplicate customer data.
+16	Merge different WarehouseStocks into a single dataset.	Consolidate warehouse stock levels.
+17	Perform a SELF JOIN on Orders to find repeat customers.	Identify customers with multiple purchases.
+18	Perform a CROSS JOIN on Products and Warehouses.	Generate a matrix of all possible stock locations.
+19	Find the most frequently ordered products.	Identify products with highest demand.
+20	Identify the most valuable customers based on total order value.	Target high-value customers for loyalty programs.
