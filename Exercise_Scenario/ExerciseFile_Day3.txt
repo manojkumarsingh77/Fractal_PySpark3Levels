@@ -1,5 +1,5 @@
 Column Operations Scenarios (1-20)
-Use DataSet Named: Day3_aggregations_grouping_data.csv(It here inside another folder Named Day3_DataSet)
+Use DataSet Named: Day3_aggregations_grouping_data.csv(It here inside another folder Named Day3Data)
 
 
 Create Dynamic Risk Flags: Add a column RiskFlag where Low, Medium, and High are determined dynamically based on Assets and RiskFactor thresholds.
