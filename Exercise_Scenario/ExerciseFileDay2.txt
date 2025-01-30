@@ -1,89 +1,93 @@
 Domain: Investment Banking and Insurance
 Topic 1: Loading and Exploring DataFrames
-Business Requirements:
-Load client portfolio data from a CSV file and display the schema.
-Business Need: Understand client portfolio details such as asset allocation, risk tolerance, and diversification.
-Load transaction records from a JSON file and show the first 10 rows.
-Business Need: Analyze recent client transactions for fraud detection and compliance.
-Load stock price data from a partitioned Parquet file and filter data for a specific year.
-Business Need: Extract stock performance data for a given year to identify trends.
-Infer schema automatically for a CSV file, then display all column names.
-Business Need: Validate and ensure data integrity in client portfolio data.
-Explicitly define the schema for a JSON file and compare it with schema inference.
-Business Need: Validate structured transaction data and compare inferred vs. expected structure.
-Count the total number of rows in a Parquet file partitioned by year.
-Business Need: Monitor annual trading volumes to assess market activity.
-Find the maximum value in a specific column of a loaded CSV file.
-Business Need: Identify the highest-value transactions for VIP clients.
-Calculate the average transaction amount from JSON data.
-Business Need: Understand typical transaction sizes across clients.
-Load data from a CSV file and drop rows with null values.
-Business Need: Clean incomplete client data before analysis.
-Load data from a JSON file and fill null values with default values.
-Business Need: Standardize incomplete data for transaction processing.
-Load stock data from a partitioned Parquet file and perform a basic exploration (show, count, etc.).
-Business Need: Perform exploratory analysis of stock performance.
-Select specific columns from a DataFrame loaded from a CSV file.
-Business Need: Focus on key attributes such as risk score and assets under management.
-Filter rows from a JSON file where a column value meets a condition.
-Business Need: Identify high-value withdrawals for compliance audits.
-Create a summary (mean, median, max, min) of a column in a Parquet file.
-Business Need: Summarize stock returns to assist investment decisions.
-Load data from a CSV file and sort it by a specific column.
-Business Need: Rank clients based on assets under management.
-Count distinct values in a column from a DataFrame loaded from a JSON file.
-Business Need: Determine the number of unique products offered in the insurance domain.
-Perform sampling on a Parquet file and show the sampled rows.
-Business Need: Extract a random sample of stock data for quick testing.
-Repartition data from a CSV file into a specified number of partitions.
-Business Need: Optimize data processing for distributed systems.
-Group data loaded from a JSON file by a column and calculate aggregates.
-Business Need: Calculate total transaction amounts grouped by client region.
-Save a DataFrame loaded from a Parquet file into a new partitioned Parquet file.
-Business Need: Reorganize stock data by year and sector for efficient querying.
 
-Topic 2: SQL Queries on DataFrames
 Business Requirements:
+
+Load client portfolio data from a CSV file and display the schema.
+  - Business Need: Understand client portfolio details such as asset allocation, risk tolerance, and diversification.
+Load transaction records from a JSON file and show the first 10 rows.
+ - Business Need: Analyze recent client transactions for fraud detection and compliance.
+Load stock price data from a partitioned Parquet file and filter data for a specific year.
+ - Business Need: Extract stock performance data for a given year to identify trends.
+Infer schema automatically for a CSV file, then display all column names.
+ - Business Need: Validate and ensure data integrity in client portfolio data.
+Explicitly define the schema for a JSON file and compare it with schema inference.
+ - Business Need: Validate structured transaction data and compare inferred vs. expected structure.
+Count the total number of rows in a Parquet file partitioned by year.
+ - Business Need: Monitor annual trading volumes to assess market activity.
+Find the maximum value in a specific column of a loaded CSV file.
+ - Business Need: Identify the highest-value transactions for VIP clients.
+Calculate the average transaction amount from JSON data.
+ - Business Need: Understand typical transaction sizes across clients.
+Load data from a CSV file and drop rows with null values.
+ - Business Need: Clean incomplete client data before analysis.
+Load data from a JSON file and fill null values with default values.
+ - Business Need: Standardize incomplete data for transaction processing.
+Load stock data from a partitioned Parquet file and perform a basic exploration (show, count, etc.).
+ - Business Need: Perform exploratory analysis of stock performance.
+Select specific columns from a DataFrame loaded from a CSV file.
+ - Business Need: Focus on key attributes such as risk score and assets under management.
+Filter rows from a JSON file where a column value meets a condition.
+ - Business Need: Identify high-value withdrawals for compliance audits.
+Create a summary (mean, median, max, min) of a column in a Parquet file.
+ - Business Need: Summarize stock returns to assist investment decisions.
+Load data from a CSV file and sort it by a specific column.
+ - Business Need: Rank clients based on assets under management.
+Count distinct values in a column from a DataFrame loaded from a JSON file.
+ - Business Need: Determine the number of unique products offered in the insurance domain.
+Perform sampling on a Parquet file and show the sampled rows.
+ - Business Need: Extract a random sample of stock data for quick testing.
+Repartition data from a CSV file into a specified number of partitions.
+ - Business Need: Optimize data processing for distributed systems.
+Group data loaded from a JSON file by a column and calculate aggregates.
+ - Business Need: Calculate total transaction amounts grouped by client region.
+Save a DataFrame loaded from a Parquet file into a new partitioned Parquet file.
+ - Business Need: Reorganize stock data by year and sector for efficient querying.
+===================================================================================
+Topic 2: SQL Queries on DataFrames
+
+Business Requirements:
+
 Register a CSV-loaded DataFrame as a temporary table and run a SELECT query.
-Business Need: Extract key details from client portfolio data for reporting.
+ - Business Need: Extract key details from client portfolio data for reporting.
 Perform an INNER JOIN on two JSON-loaded DataFrames and display results.
-Business Need: Combine client transactions and product details to analyze sales patterns.
+ - Business Need: Combine client transactions and product details to analyze sales patterns.
 Use GROUP BY on a Parquet-loaded DataFrame to calculate totals.
-Business Need: Compute total investment amounts grouped by product type.
+ - Business Need: Compute total investment amounts grouped by product type.
 Identify rows where a specific column value is null using SQL queries.
-Business Need: Audit missing fields in client data for regulatory compliance.
+ - Business Need: Audit missing fields in client data for regulatory compliance.
 Find the top 5 records with the highest values in a specific column.
-Business Need: Identify top-performing advisors based on total sales.
+ - Business Need: Identify top-performing advisors based on total sales.
 Use CASE WHEN in a SQL query to categorize rows based on a column.
-Business Need: Categorize clients into risk levels based on their portfolio composition.
+ - Business Need: Categorize clients into risk levels based on their portfolio composition.
 Perform a LEFT JOIN between two DataFrames loaded from CSV and JSON files.
-Business Need: Combine transaction data with client profiles, retaining all clients.
+ - Business Need: Combine transaction data with client profiles, retaining all clients.
 Create a TEMP VIEW for a DataFrame and query it with complex conditions.
-Business Need: Analyze client investments filtered by region, risk, and investment type.
+ - Business Need: Analyze client investments filtered by region, risk, and investment type.
 Perform UNION on two DataFrames loaded from Parquet files.
-Business Need: Merge transaction data from two different regions for a global report.
+ - Business Need: Merge transaction data from two different regions for a global report.
 Run a query to calculate the total and average values for a column grouped by another column.
-Business Need: Calculate average transaction amounts for each product type.
+ - Business Need: Calculate average transaction amounts for each product type.
 Use SQL to find the number of unique values in a specific column.
-Business Need: Identify the number of distinct products sold in an investment plan.
+ - Business Need: Identify the number of distinct products sold in an investment plan.
 Write a SQL query to filter rows using multiple conditions.
-Business Need: Identify transactions exceeding a specific threshold for high-risk products.
+  - Business Need: Identify transactions exceeding a specific threshold for high-risk products.
 Perform a RIGHT JOIN between DataFrames and display unmatched rows.
-Business Need: Find products with no associated transactions.
+  - Business Need: Find products with no associated transactions.
 Create a derived column in SQL by performing arithmetic operations.
-Business Need: Calculate projected returns for each client portfolio.
+ - Business Need: Calculate projected returns for each client portfolio.
 Query data from a temporary table with nested SQL queries.
-Business Need: Generate a report of clients investing in specific high-yield products.
+ - Business Need: Generate a report of clients investing in specific high-yield products.
 Perform an aggregation with multiple functions (SUM, AVG, COUNT) using SQL.
-Business Need: Summarize client transactions by total, average, and count.
+ - Business Need: Summarize client transactions by total, average, and count.
 Write a SQL query to order data by a specific column in descending order.
-Business Need: Rank advisors by total revenue generated.
+ - Business Need: Rank advisors by total revenue generated.
 Use SQL to calculate cumulative sums or running totals.
-Business Need: Track cumulative transaction amounts for each client over time.
+ - Business Need: Track cumulative transaction amounts for each client over time.
 Delete duplicate rows in a DataFrame using SQL.
-Business Need: Ensure no duplicate transactions in compliance reports.
+ - Business Need: Ensure no duplicate transactions in compliance reports.
 Save the result of a SQL query into a new Parquet file.
-Business Need: Export aggregated transaction summaries for archival.
+ - Business Need: Export aggregated transaction summaries for archival.
 
 
 ========================================================================
