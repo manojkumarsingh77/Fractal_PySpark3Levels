@@ -14,7 +14,7 @@ Use DataSet Named: Day3_column_operations_data.csv(It here inside another folder
 10. Categorize Customers: Add a column CustomerCategory (e.g., VIP, Regular, Occasional) based on TotalSpending thresholds.
 11. Flag Late Deliveries: Add a column LateDeliveryFlag where delivery times exceeding the expected SLA are marked as True.
 12. Calculate Compound Growth: Add a column CompoundGrowth based on GrowthRate and YearsInvested.
-13. 
+13. Generate Labels for ML Models
 14. Segment Age Ranges: Add a column AgeSegment based on the customer’s age range (e.g., 18-25, 26-35, 36-50, etc.).
 15. Calculate Discounted Price: Add a column DiscountedPrice after applying a dynamic discount.
 16. Currency Conversion: Add a column PriceInUSD by converting Price based on the ExchangeRate.
