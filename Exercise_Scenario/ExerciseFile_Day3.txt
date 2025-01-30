@@ -2,49 +2,49 @@ Column Operations Scenarios (1-20)
 Use DataSet Named: Day3_column_operations_data.csv(It here inside another folder Named Day3Data) - Exercise_Scenario/Day3Data/Day3_column_operations_data.csv
 
 
-Create Dynamic Risk Flags: Add a column RiskFlag where Low, Medium, and High are determined dynamically based on Assets and RiskFactor thresholds.
-Generate a Composite Key: Create a new column ClientKey by concatenating CustomerID and TransactionDate using a separator.
-Normalize Revenue: Add a column NormalizedRevenue where each row’s revenue is normalized by the maximum revenue of the dataset.
-Calculate Time Difference: Add a column DaysSinceLastTransaction by subtracting LastTransactionDate from CurrentDate.
-Rank Customers by Revenue: Add a column CustomerRank ranking customers by Revenue within each Region.
-Detect Fraudulent Transactions: Add a column IsFraud where a transaction is flagged if it exceeds 3x the average transaction size.
-Create Conditional Discounts: Add a column Discount where values are conditional (e.g., 10% for revenue > $500, 5% for $100-$500, 0% otherwise).
-Apply Tax Brackets: Add a column TaxBracket based on Revenue using custom ranges.
-Compute ROI: Add a column ROI (Return on Investment) using the formula: (Revenue - Cost) / Cost * 100.
-Categorize Customers: Add a column CustomerCategory (e.g., VIP, Regular, Occasional) based on TotalSpending thresholds.
-Flag Late Deliveries: Add a column LateDeliveryFlag where delivery times exceeding the expected SLA are marked as True.
-Calculate Compound Growth: Add a column CompoundGrowth based on GrowthRate and YearsInvested.
-Generate Labels for ML Models: Add a column Label (0/1) for machine learning classification based on whether a transaction is fraud or not.
-Segment Age Ranges: Add a column AgeSegment based on the customer’s age range (e.g., 18-25, 26-35, 36-50, etc.).
-Calculate Discounted Price: Add a column DiscountedPrice after applying a dynamic discount.
-Currency Conversion: Add a column PriceInUSD by converting Price based on the ExchangeRate.
-Predictive Scoring: Add a column ChurnScore using a formula based on multiple features like Engagement, TransactionFrequency, and Revenue.
-Dynamic Bin Creation: Add a column RevenueBin that dynamically bins Revenue into quartiles.
-Categorical Transformation: Convert categorical values in Region into numerical representations.
-Derive Weekly Metrics: Add a column WeekNumber derived from TransactionDate for weekly trend analysis.
+1. Create Dynamic Risk Flags: Add a column RiskFlag where Low, Medium, and High are determined dynamically based on Assets and RiskFactor thresholds.
+2. Generate a Composite Key: Create a new column ClientKey by concatenating CustomerID and TransactionDate using a separator.
+3. Normalize Revenue: Add a column NormalizedRevenue where each row’s revenue is normalized by the maximum revenue of the dataset.
+4. Calculate Time Difference: Add a column DaysSinceLastTransaction by subtracting LastTransactionDate from CurrentDate.
+5. Rank Customers by Revenue: Add a column CustomerRank ranking customers by Revenue within each Region.
+6. Detect Fraudulent Transactions: Add a column IsFraud where a transaction is flagged if it exceeds 3x the average transaction size.
+7. Create Conditional Discounts: Add a column Discount where values are conditional (e.g., 10% for revenue > $500, 5% for $100-$500, 0% otherwise).
+8. Apply Tax Brackets: Add a column TaxBracket based on Revenue using custom ranges.
+9. Compute ROI: Add a column ROI (Return on Investment) using the formula: (Revenue - Cost) / Cost * 100.
+10. Categorize Customers: Add a column CustomerCategory (e.g., VIP, Regular, Occasional) based on TotalSpending thresholds.
+11. Flag Late Deliveries: Add a column LateDeliveryFlag where delivery times exceeding the expected SLA are marked as True.
+12. Calculate Compound Growth: Add a column CompoundGrowth based on GrowthRate and YearsInvested.
+13. Generate Labels for ML Models: Add a column Label (0/1) for machine learning classification based on whether a transaction is fraud or not.
+14. Segment Age Ranges: Add a column AgeSegment based on the customer’s age range (e.g., 18-25, 26-35, 36-50, etc.).
+15. Calculate Discounted Price: Add a column DiscountedPrice after applying a dynamic discount.
+16. Currency Conversion: Add a column PriceInUSD by converting Price based on the ExchangeRate.
+17. Predictive Scoring: Add a column ChurnScore using a formula based on multiple features like Engagement, TransactionFrequency, and Revenue.
+18. Dynamic Bin Creation: Add a column RevenueBin that dynamically bins Revenue into quartiles.
+19. Categorical Transformation: Convert categorical values in Region into numerical representations.
+20. Derive Weekly Metrics: Add a column WeekNumber derived from TransactionDate for weekly trend analysis.
 ==============
 
 Aggregations and Grouping Scenarios (21-40)
 Use DataSet Named: Day3_aggregations_grouping_data.csv(It here inside another folder Named Day3Data) - Exercise_Scenario/Day3Data/Day3_aggregations_grouping_data.csv
 
 
-Group by Customer and Product: Calculate total revenue and average transaction size for each customer-product pair.
-Weekly Sales Trends: Group by WeekNumber and calculate weekly total revenue and average order size.
-Top Products per Region: Identify the top 5 products by revenue in each region.
-Year-over-Year Growth: Calculate yearly growth in revenue grouped by ProductCategory.
-Regional Profitability: Group by Region and calculate total revenue, total cost, and profitability (Revenue - Cost).
-Dynamic Grouping: Group by CustomerCategory and dynamically calculate aggregates based on input metrics (e.g., TotalOrders, AverageSpending).
-Segment-Based Metrics: Group by AgeSegment and calculate total, average, and median spending for each segment.
-Delivery Performance: Group by ShippingType and calculate the percentage of on-time deliveries.
-Product Failure Rates: Group by ProductCategory and calculate the percentage of returns or complaints.
-High-Risk Regions: Identify regions with the highest number of transactions flagged as Risky.
-Customer Retention: Group by CustomerID and calculate the number of repeat purchases over time.
-Dynamic Aggregations: Calculate multiple aggregates (min, max, avg, stddev) for revenue grouped by ProductCategory.
-Revenue Contribution: Group by Region and calculate each region’s percentage contribution to global revenue.
-Fraud Analysis: Group by PaymentMethod and calculate the count of fraudulent transactions.
-Identify Anomalies: Group by ProductCategory and identify products with sales significantly deviating from the category average.
-Churn Analysis: Group by Region and calculate the percentage of customers lost in the last year.
-Portfolio Diversification: Group by CustomerID and calculate the diversity of their investments using entropy metrics.
-Campaign Effectiveness: Group by CampaignID and calculate total signups, conversion rates, and revenue generated.
-Tax Analysis: Group by TaxBracket and calculate total revenue and average tax collected.
-Time-Series Aggregations: Group by Month and calculate rolling averages for sales and profit trends.
+1. Group by Customer and Product: Calculate total revenue and average transaction size for each customer-product pair.
+2. Weekly Sales Trends: Group by WeekNumber and calculate weekly total revenue and average order size.
+3. Top Products per Region: Identify the top 5 products by revenue in each region.
+4. Year-over-Year Growth: Calculate yearly growth in revenue grouped by ProductCategory.
+5. Regional Profitability: Group by Region and calculate total revenue, total cost, and profitability (Revenue - Cost).
+6. Dynamic Grouping: Group by CustomerCategory and dynamically calculate aggregates based on input metrics (e.g., TotalOrders, AverageSpending).
+7. Segment-Based Metrics: Group by AgeSegment and calculate total, average, and median spending for each segment.
+8. Delivery Performance: Group by ShippingType and calculate the percentage of on-time deliveries.
+9. Product Failure Rates: Group by ProductCategory and calculate the percentage of returns or complaints.
+10. High-Risk Regions: Identify regions with the highest number of transactions flagged as Risky.
+11. Customer Retention: Group by CustomerID and calculate the number of repeat purchases over time.
+12. Dynamic Aggregations: Calculate multiple aggregates (min, max, avg, stddev) for revenue grouped by ProductCategory.
+13. Revenue Contribution: Group by Region and calculate each region’s percentage contribution to global revenue.
+14. Fraud Analysis: Group by PaymentMethod and calculate the count of fraudulent transactions.
+15. Identify Anomalies: Group by ProductCategory and identify products with sales significantly deviating from the category average.
+16. Churn Analysis: Group by Region and calculate the percentage of customers lost in the last year.
+17. Portfolio Diversification: Group by CustomerID and calculate the diversity of their investments using entropy metrics.
+18. Campaign Effectiveness: Group by CampaignID and calculate total signups, conversion rates, and revenue generated.
+19. Tax Analysis: Group by TaxBracket and calculate total revenue and average tax collected.
+20. Time-Series Aggregations: Group by Month and calculate rolling averages for sales and profit trends.
