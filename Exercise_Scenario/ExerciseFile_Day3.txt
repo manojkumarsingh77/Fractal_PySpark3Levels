@@ -1,5 +1,5 @@
 Column Operations Scenarios (1-20)
-Use DataSet Named: Day3_aggregations_grouping_data.csv(It here inside another folder Named Day3Data)
+Use DataSet Named: Day3_column_operations_data.csv(It here inside another folder Named Day3Data)
 
 
 Create Dynamic Risk Flags: Add a column RiskFlag where Low, Medium, and High are determined dynamically based on Assets and RiskFactor thresholds.
@@ -25,6 +25,9 @@ Derive Weekly Metrics: Add a column WeekNumber derived from TransactionDate for 
 ==============
 
 Aggregations and Grouping Scenarios (21-40)
+Use DataSet Named: Day3_aggregations_grouping_data.csv(It here inside another folder Named Day3Data)
+
+
 Group by Customer and Product: Calculate total revenue and average transaction size for each customer-product pair.
 Weekly Sales Trends: Group by WeekNumber and calculate weekly total revenue and average order size.
 Top Products per Region: Identify the top 5 products by revenue in each region.
