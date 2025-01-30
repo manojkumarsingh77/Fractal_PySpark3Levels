@@ -1,4 +1,7 @@
 Column Operations Scenarios (1-20)
+Use DataSet Named: Day3_aggregations_grouping_data.csv(It here inside another folder Named Day3_DataSet)
+
+
 Create Dynamic Risk Flags: Add a column RiskFlag where Low, Medium, and High are determined dynamically based on Assets and RiskFactor thresholds.
 Generate a Composite Key: Create a new column ClientKey by concatenating CustomerID and TransactionDate using a separator.
 Normalize Revenue: Add a column NormalizedRevenue where each row’s revenue is normalized by the maximum revenue of the dataset.
