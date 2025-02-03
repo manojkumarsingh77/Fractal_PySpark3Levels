@@ -1,4 +1,5 @@
 Use Data From Data Folder Level2 - Day 1 - large_inventory.json
+Data/Level2_Data/Day1/ExerciseDataSet/large_inventory.json
 
 1. 💼 Scenario: Extract Product Name, Category, and Supplier Info into a tabular format.
 
