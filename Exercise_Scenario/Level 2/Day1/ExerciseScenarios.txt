@@ -1,1 +1,22 @@
+Use Data From Data Folder Level2 - Day 1 - large_inventory.json
+
+1. 💼 Scenario: Extract Product Name, Category, and Supplier Info into a tabular format.
+
+2. 💼 Scenario: Each product has multiple stock locations. Create one row per warehouse stock.
+
+3. 💼 Scenario: Extract warehouse-level stock details in a structured format.
+
+4. 💼 Scenario: Extract warehouse keys and values from a map column.
+
+5. 💼 Scenario: Flatten past order history for analysis.
+
+6. 💼 Scenario: Extract past orders into a structured format.
+
+7. 💼 Scenario: Find products with stock > 50 in any warehouse.
+
+8. 💼 Scenario: Compute total stock per product across all warehouses.
+
+9. 💼 Scenario: Count number of products supplied by each supplier.
+
+10. 💼 Scenario: Identify duplicate products within the dataset.
 
