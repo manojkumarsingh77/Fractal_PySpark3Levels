@@ -1,0 +1,14 @@
+Use this Data Set for below exercises:
+Data/Level2_Data/Day1/ExerciseDataSet/large_supply_chain_orders.csv
+
+1. 💼 Scenario: Find the top suppliers based on total order quantity per warehouse.
+2. 💼 Scenario: Compare rank() vs. dense_rank() in case of ties.
+3. 💼 Scenario: Assign unique row numbers per warehouse.
+4. 💼 Scenario: Calculate cumulative order quantity per supplier over time.
+5. 💼 Scenario: Compare current vs. previous order delivery times.
+6. 💼 Scenario: Calculate a 3-day moving average for delivery time.
+7. 💼 Scenario: Reduce data shuffling by partitioning orders per warehouse.
+8. 💼 Scenario: Count number of products supplied per supplier.
+9. 💼 Scenario: Track total order quantity per warehouse over time.
+10. 💼 Scenario: Identify duplicate orders by checking repeated order IDs.
+
