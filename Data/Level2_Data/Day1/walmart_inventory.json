@@ -1,0 +1,272 @@
+[
+    {
+        "store_id": "Store_001",
+        "inventory": {
+            "product": {
+                "id": 102,
+                "name": "Smartphone",
+                "details": {
+                    "category": "Electronics",
+                    "price": 500
+                }
+            },
+            "stock": [
+                {
+                    "warehouse": "WH1",
+                    "quantity": 95
+                },
+                {
+                    "warehouse": "WH2",
+                    "quantity": 88
+                }
+            ],
+            "supplier_info": {
+                "name": "Supplier_5",
+                "contact": "contact_5191"
+            }
+        }
+    },
+    {
+        "store_id": "Store_002",
+        "inventory": {
+            "product": {
+                "id": 201,
+                "name": "Apple",
+                "details": {
+                    "category": "Groceries",
+                    "price": 2
+                }
+            },
+            "stock": [
+                {
+                    "warehouse": "WH1",
+                    "quantity": 59
+                },
+                {
+                    "warehouse": "WH2",
+                    "quantity": 96
+                }
+            ],
+            "supplier_info": {
+                "name": "Supplier_1",
+                "contact": "contact_1560"
+            }
+        }
+    },
+    {
+        "store_id": "Store_002",
+        "inventory": {
+            "product": {
+                "id": 101,
+                "name": "Laptop",
+                "details": {
+                    "category": "Electronics",
+                    "price": 800
+                }
+            },
+            "stock": [
+                {
+                    "warehouse": "WH1",
+                    "quantity": 87
+                },
+                {
+                    "warehouse": "WH2",
+                    "quantity": 74
+                }
+            ],
+            "supplier_info": {
+                "name": "Supplier_2",
+                "contact": "contact_1923"
+            }
+        }
+    },
+    {
+        "store_id": "Store_003",
+        "inventory": {
+            "product": {
+                "id": 301,
+                "name": "Jeans",
+                "details": {
+                    "category": "Clothing",
+                    "price": 40
+                }
+            },
+            "stock": [
+                {
+                    "warehouse": "WH1",
+                    "quantity": 55
+                },
+                {
+                    "warehouse": "WH2",
+                    "quantity": 91
+                }
+            ],
+            "supplier_info": {
+                "name": "Supplier_3",
+                "contact": "contact_6123"
+            }
+        }
+    },
+    {
+        "store_id": "Store_003",
+        "inventory": {
+            "product": {
+                "id": 301,
+                "name": "Jeans",
+                "details": {
+                    "category": "Clothing",
+                    "price": 40
+                }
+            },
+            "stock": [
+                {
+                    "warehouse": "WH1",
+                    "quantity": 15
+                },
+                {
+                    "warehouse": "WH2",
+                    "quantity": 25
+                }
+            ],
+            "supplier_info": {
+                "name": "Supplier_5",
+                "contact": "contact_3153"
+            }
+        }
+    },
+    {
+        "store_id": "Store_001",
+        "inventory": {
+            "product": {
+                "id": 202,
+                "name": "Milk",
+                "details": {
+                    "category": "Groceries",
+                    "price": 3
+                }
+            },
+            "stock": [
+                {
+                    "warehouse": "WH1",
+                    "quantity": 51
+                },
+                {
+                    "warehouse": "WH2",
+                    "quantity": 83
+                }
+            ],
+            "supplier_info": {
+                "name": "Supplier_3",
+                "contact": "contact_2501"
+            }
+        }
+    },
+    {
+        "store_id": "Store_002",
+        "inventory": {
+            "product": {
+                "id": 101,
+                "name": "Laptop",
+                "details": {
+                    "category": "Electronics",
+                    "price": 800
+                }
+            },
+            "stock": [
+                {
+                    "warehouse": "WH1",
+                    "quantity": 94
+                },
+                {
+                    "warehouse": "WH2",
+                    "quantity": 49
+                }
+            ],
+            "supplier_info": {
+                "name": "Supplier_2",
+                "contact": "contact_6836"
+            }
+        }
+    },
+    {
+        "store_id": "Store_003",
+        "inventory": {
+            "product": {
+                "id": 101,
+                "name": "Laptop",
+                "details": {
+                    "category": "Electronics",
+                    "price": 800
+                }
+            },
+            "stock": [
+                {
+                    "warehouse": "WH1",
+                    "quantity": 95
+                },
+                {
+                    "warehouse": "WH2",
+                    "quantity": 41
+                }
+            ],
+            "supplier_info": {
+                "name": "Supplier_2",
+                "contact": "contact_1419"
+            }
+        }
+    },
+    {
+        "store_id": "Store_002",
+        "inventory": {
+            "product": {
+                "id": 101,
+                "name": "Laptop",
+                "details": {
+                    "category": "Electronics",
+                    "price": 800
+                }
+            },
+            "stock": [
+                {
+                    "warehouse": "WH1",
+                    "quantity": 24
+                },
+                {
+                    "warehouse": "WH2",
+                    "quantity": 37
+                }
+            ],
+            "supplier_info": {
+                "name": "Supplier_2",
+                "contact": "contact_3463"
+            }
+        }
+    },
+    {
+        "store_id": "Store_003",
+        "inventory": {
+            "product": {
+                "id": 301,
+                "name": "Jeans",
+                "details": {
+                    "category": "Clothing",
+                    "price": 40
+                }
+            },
+            "stock": [
+                {
+                    "warehouse": "WH1",
+                    "quantity": 12
+                },
+                {
+                    "warehouse": "WH2",
+                    "quantity": 17
+                }
+            ],
+            "supplier_info": {
+                "name": "Supplier_1",
+                "contact": "contact_4801"
+            }
+        }
+    }
+]
