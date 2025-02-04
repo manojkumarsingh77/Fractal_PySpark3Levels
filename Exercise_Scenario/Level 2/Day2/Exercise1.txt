@@ -1,0 +1,14 @@
+
+
+
+10 Business Exercises for Optimized Joins
+💼 Match each banking transaction with customer details efficiently using Broadcast Join (since customer dataset is small).
+💼 Identify fraudulent transactions by joining transaction logs with blacklisted accounts (small dataset).
+💼 Optimize high-cardinality joins between transactions and account types using partitioning.
+💼 Fix data skew issues by handling accounts with disproportionately high transactions using salting.
+💼 Analyze transaction frequency per customer using skewed join optimization.
+💼 Merge daily transaction logs with historical customer data efficiently using bucketed joins.
+💼 Find accounts with frequent overdrafts by joining transactions with overdraft history.
+💼 Analyze daily account balances by joining transactions with balance history.
+💼 Identify duplicate accounts or multiple accounts under the same customer.
+💼 Optimize merging large external transaction datasets with internal bank data using broadcasting.
