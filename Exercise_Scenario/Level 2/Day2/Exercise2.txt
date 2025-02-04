@@ -6,13 +6,13 @@ Topic 2: Data Serialization (Optimized Storage)
 A bank needs to store loan details efficiently for faster retrieval and analytics.
 
 ✅ 10 Business Exercises for Data Serialization
-💼 Store loan data in Parquet format to optimize query performance.
-💼 Convert loan data to Avro format for easy schema evolution.
-💼 Save loan details in ORC format for high compression in Hadoop-based systems.
-💼 Compare storage size of CSV, Parquet, Avro, and ORC.
-💼 Load Parquet data and query loan amounts faster than CSV.
-💼 Analyze performance difference between Parquet & ORC for aggregations.
-💼 Convert multiple small loan files into partitioned Parquet files.
-💼 Use bucketing for optimized storage of loan data by interest rate.
-💼 Find customers with pending loans using ORC format for faster retrieval.
-💼 Identify loan trends by querying partitioned Parquet loan data.
+1. 💼 Store loan data in Parquet format to optimize query performance.
+2. 💼 Convert loan data to Avro format for easy schema evolution.
+3. 💼 Save loan details in ORC format for high compression in Hadoop-based systems.
+4. 💼 Compare storage size of CSV, Parquet, Avro, and ORC.
+5. 💼 Load Parquet data and query loan amounts faster than CSV.
+6. 💼 Analyze performance difference between Parquet & ORC for aggregations.
+7. 💼 Convert multiple small loan files into partitioned Parquet files.
+8. 💼 Use bucketing for optimized storage of loan data by interest rate.
+9. 💼 Find customers with pending loans using ORC format for faster retrieval.
+10. 💼 Identify loan trends by querying partitioned Parquet loan data.
