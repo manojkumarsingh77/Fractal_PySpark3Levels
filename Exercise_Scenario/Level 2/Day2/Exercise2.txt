@@ -1,4 +1,4 @@
-
+Use Data: Data/Level2_Data/Day2/ExercisesData/loans.csv
 
 
 Topic 2: Data Serialization (Optimized Storage)
