@@ -1,5 +1,6 @@
-
-
+Use Data: Data/Level2_Data/Day2/ExercisesData/accounts.csv
+and 
+Data/Level2_Data/Day2/ExercisesData/transactions.csv
 
 10 Business Exercises for Optimized Joins
 1. 💼 Match each banking transaction with customer details efficiently using Broadcast Join (since customer dataset is small).
