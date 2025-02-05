@@ -1,0 +1,43 @@
+
+
+Partitioning Exercises
+
+1. 📌 The company wants to store drug sales data efficiently by partitioning it by region.
+🎯 Objective: Write drug sales data partitioned by region and query only a specific region’s data.
+
+
+2. 📌 Analysts frequently query specific regions (e.g., region = 'North'). They want to reduce scan time using partition pruning.
+🎯 Objective: Read data only for North region without scanning all partitions.
+
+
+3. 📌 Clinical trial records contain millions of entries. Storing them partitioned by drug_administered and region will improve efficiency.
+🎯 Objective: Save clinical trial data partitioned by drug and region.
+
+
+4. 📌 Management wants to understand how partitioning improves performance.
+🎯 Objective: Run the same query on partitioned and non-partitioned data and compare execution time.
+
+
+5. 📌 Doctors need clinical trial records for patients above 50 years for research.
+🎯 Objective: Query only required partitions and retrieve patients above age 50.
+
+Bucketing Exercises
+
+6. 📌 Instead of partitioning, the company decides to bucket data by drug_name to optimize joins.
+🎯 Objective: Save drug sales data bucketed by drug_name and compare query performance.
+
+
+7. 📌 The company frequently joins sales and inventory datasets on drug_name.
+🎯 Objective: Use bucketing on both datasets to optimize joins.
+
+
+8. 📌 Management wants to determine when to use bucketing vs. partitioning.
+🎯 Objective: Compare query execution time for bucketing vs. partitioning.
+
+
+9. 📌 The sales team needs sales data for Paracetamol without scanning the entire dataset.
+🎯 Objective: Query only the required bucket for Paracetamol.
+
+
+10. 📌 To maximize efficiency, the company decides to partition by region and bucket by drug_name.
+🎯 Objective: Save sales data partitioned by region and bucketed by drug_name.
