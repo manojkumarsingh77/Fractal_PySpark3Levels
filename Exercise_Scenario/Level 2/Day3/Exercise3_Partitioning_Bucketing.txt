@@ -1,6 +1,8 @@
 Use dataset for below exercises: Data/Level2_Data/Day3/ExerciseData/clinical_trial_data_2.csv
 and 
 Data/Level2_Data/Day3/ExerciseData/drug_sales_data.csv
+and 
+Data/Level2_Data/Day3/ExerciseData/inventory_data.csv
 
 Partitioning Exercises
 
