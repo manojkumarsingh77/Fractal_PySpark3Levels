@@ -1,0 +1,49 @@
+Use this Data for Below Exercises: Data/Level2_Data/Day3/ExerciseData/clinical_trial_data.csv
+
+10 Exercises with their Business Requirment:
+
+
+1. 📌 Business Requirement:
+A clinical research team frequently filters patient records where efficacy is "High".
+To speed up repeated queries, they decide to cache the filtered dataset.
+
+
+2. 📌 Business Requirement:
+Researchers want to compare the query execution time with and without caching to understand the performance improvement.
+
+
+3. 📌 Business Requirement:
+Once analysis is completed, the team needs to free up memory by unpersisting the cached dataset.
+
+
+4. 📌 Business Requirement:
+The research team wants to store the dataset persistently in both memory and disk to avoid recomputation.
+
+
+5. 📌 Business Requirement:
+The IT team wants to verify how data is cached in memory and disk and ensure proper resource utilization.
+
+
+6. 📌 Business Requirement:
+The research team performs multiple transformations on the dataset and wants to cache intermediate results for repeated queries.
+
+
+7. 📌 Business Requirement:
+For low-memory environments, the team decides to store data only in disk and avoid RAM usage.
+
+
+8. 📌 Business Requirement:
+A small dataset (hospital details) is frequently joined with clinical trial data.
+To optimize performance, the small dataset should be broadcasted instead of shuffled.
+
+
+9. 📌 Business Requirement:
+The marketing team wants to analyze:
+
+Patients with severe side effects (score > 4).
+Find the top 3 most affected regions.
+Optimize by caching intermediate results for multiple analyses.
+
+
+10. 📌 Business Requirement:
+The analysis team wants to cache data once and reuse it across multiple sessions without recomputing.
