@@ -1,4 +1,4 @@
-
+Use this data for these below exercises: Data/Level2_Data/Day3/ExerciseData/pharma_data.csv
 
 # 10 Exercises (With Business Requirement)
 
