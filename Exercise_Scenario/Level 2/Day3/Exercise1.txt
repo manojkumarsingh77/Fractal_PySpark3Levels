@@ -1,0 +1,33 @@
+
+
+# 10 Exercises (With Business Requirement)
+
+1. 📌 Business Requirement:
+The company wants to estimate the number of unique patients taking each drug without scanning all records.
+
+2. 📌 Business Requirement:
+The company wants to know how many unique regions are generating drug sales.
+
+3. 📌 Business Requirement:
+A fraud detection team wants to quickly check if a patient ID exists in the dataset without scanning all records.
+
+4. 📌 Business Requirement:
+The company wants to detect if a patient has already been prescribed a drug.
+
+5. 📌 Business Requirement:
+The company wants to identify quartile revenue ranges to determine high-value sales.
+
+6. 📌 Business Requirement:
+Find patients in the highest 10% risk category based on side effect severity.
+
+7. 📌 Business Requirement:
+Instead of analyzing all sales records, the company wants to estimate trends by sampling data.
+
+8. 📌 Business Requirement:
+Instead of processing entire sales data, the team wants to train a model using a subset.
+
+9. 📌 Business Requirement:
+The company wants to estimate total sales per drug with minimal computation.
+
+10. 📌 Business Requirement:
+Identify the top-selling drugs using an approximate approach.
