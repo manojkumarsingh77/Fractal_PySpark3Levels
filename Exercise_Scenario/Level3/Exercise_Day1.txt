@@ -1,4 +1,4 @@
-Dataset to be used - transactions.csv, loan_applications.csv, exchange_rates.csv, large_transactions.csv
+Dataset to be used - Data/Level3/Day1/Demo(transactions.csv, loan_applications.csv, exchange_rates.csv,) Data/Level3/Day1/Exercises/large_transactions.csv
 
 1. Scenario: A banking fraud detection team is analyzing customer transactions. 
 They need to join the transactions and loan applications dataset and perform aggregations on approved loans per region.
