@@ -1,0 +1,11 @@
+Dataset to be used - transactions.csv, loan_applications.csv, exchange_rates.csv, large_transactions.csv
+
+1. Scenario: A banking fraud detection team is analyzing customer transactions. 
+They need to join the transactions and loan applications dataset and perform aggregations on approved loans per region.
+
+2. Scenario: A bank wants to cache customer transaction history to improve performance while running multiple analyses.
+
+3. Scenario: A retail banking team needs to convert all transaction amounts to USD using a lookup table of exchange rates.
+
+4. Scenario: A financial analyst team needs to process 500,000 transactions. They want to compare On-Heap vs. Off-Heap execution times.
+
