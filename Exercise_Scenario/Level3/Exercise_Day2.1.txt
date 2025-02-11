@@ -1,4 +1,4 @@
-Ude this data: Data/Level3/Day2/DemoData/transactions_partitions.zip
+Use these data for below exercises: Data/Level3/Day2/DemoData/transactions_partitions.zip, Data/Level3/Day2/Exercises/blacklisted_accounts.csv
 
 
 1. 📝 Problem Statement
