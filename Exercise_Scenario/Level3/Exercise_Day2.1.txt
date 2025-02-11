@@ -20,3 +20,9 @@ Use broadcast joins to avoid shuffle and speed up performance.
 
 5. 📝 Problem Statement
 The bank’s transactions dataset is currently stored in CSV format, which is slow to read. Convert it to Parquet format to enable faster queries.
+
+
+New Set of Exercises:
+
+
+
