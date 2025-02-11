@@ -1,0 +1,5 @@
+customer_id,blacklist_reason,risk_score
+1,High-Risk Customer,0.93
+3,Identity Theft,0.88
+6,Identity Theft,0.97
+8,Fraudulent Transactions,0.95
