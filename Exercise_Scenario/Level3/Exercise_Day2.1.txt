@@ -1,3 +1,6 @@
+Ude this data: Data/Level3/Day2/DemoData/transactions_partitions.zip
+
+
 1. 📝 Problem Statement
 A bank is analyzing customer transactions to find performance issues in its data pipelines. 
 Your task is to load the partitioned data, check how data is distributed across partitions, and identify if there is data skew.
