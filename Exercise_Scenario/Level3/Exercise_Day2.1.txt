@@ -1,0 +1,19 @@
+1. 📝 Problem Statement
+A bank is analyzing customer transactions to find performance issues in its data pipelines. 
+Your task is to load the partitioned data, check how data is distributed across partitions, and identify if there is data skew.
+
+
+2. 📝 Problem Statement
+The bank’s fraud detection system queries large transaction datasets, but some partitions are too large, causing slow query performance. 
+Your task is to repartition the data to distribute transactions more evenly.
+
+3. 📝 Problem Statement
+The bank’s fraud detection system queries the same dataset multiple times. Instead of reloading the data each time, use caching to improve query speed.
+
+4. 📝 Problem Statement
+The bank maintains a blacklist of fraudulent customers in a small dataset (blacklisted_customers.csv). Joining this table with millions of transactions causes a slow shuffle operation.
+
+Use broadcast joins to avoid shuffle and speed up performance.
+
+5. 📝 Problem Statement
+The bank’s transactions dataset is currently stored in CSV format, which is slow to read. Convert it to Parquet format to enable faster queries.
