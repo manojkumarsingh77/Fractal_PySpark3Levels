@@ -1,4 +1,8 @@
-Use these data for below exercises: Data/Level3/Day2/DemoData/transactions_partitions.zip, Data/Level3/Day2/Exercises/blacklisted_accounts.csv
+📌 Datasets Used:
+
+Transactions Data → "Data/Level3/Day2/DemoData/transactions_partitions.zip"
+Blacklisted Accounts Data → "Data/Level3/Day2/Exercises/blacklisted_accounts.csv"
+
 
 
 1. 📝 Problem Statement
@@ -26,3 +30,64 @@ New Set of Exercises:
 
 
 
+6. 📝 Problem Statement
+The current transaction dataset is stored in multiple CSV files inside a ZIP archive.
+
+The Spark job takes too long to load and process transactions because data is not partitioned correctly.
+Some partitions are too large, while others are underutilized.
+Your Task:
+
+Extract and load the transactions dataset from "transactions_partitions.zip".
+Check the number of partitions before optimization.
+Repartition the dataset based on customer_id to distribute the data evenly.
+Measure execution time before & after partitioning.
+
+
+
+7. 📝 Problem Statement
+A bank frequently analyzes high-value transactions (above $5000).
+
+Every time a query runs, it recomputes the high-value transactions.
+This slows down analytics and wastes computational resources.
+Your Task:
+
+Filter transactions where amount > 5000.
+Run an aggregation query (sum of amounts per customer) before caching and measure execution time.
+Cache the filtered transactions.
+Run the same query after caching and compare execution time.
+
+8. 📝 Problem Statement
+A fraud detection system needs to identify blacklisted customers in real-time transactions.
+
+The blacklisted accounts dataset is small (~1000 rows) but Spark performs a full shuffle during joins, slowing down performance.
+Instead of shuffling the entire transaction dataset, broadcast the blacklisted accounts dataset.
+Your Task:
+
+Load the transactions and blacklisted accounts dataset.
+Join the datasets without broadcast (measure execution time).
+Optimize the join by broadcasting the blacklisted accounts dataset.
+Measure execution time again and compare performance.
+
+9. 📝 Problem Statement
+The transaction processing system sends data between executors.
+
+By default, Spark uses Java Serialization, which is slow and memory-intensive.
+Switching to Kryo Serialization can reduce memory footprint and increase processing speed.
+Your Task:
+
+Run a basic transformation on transactions using default Java Serialization.
+Measure execution time.
+Enable Kryo Serialization (spark.serializer config).
+Run the same transformation and compare execution time.
+
+10. 📝 Problem Statement
+A credit risk model frequently queries transactions made by blacklisted customers.
+
+Each time the analysis runs, Spark reloads the filtered data, slowing down processing.
+Instead, persist the filtered fraud transactions using MEMORY_AND_DISK storage level.
+Your Task:
+
+Filter transactions made by blacklisted customers.
+Persist the filtered dataset using MEMORY_AND_DISK storage.
+Run an aggregation query before & after persistence and compare performance.
+Check Spark UI to analyze storage usage.
