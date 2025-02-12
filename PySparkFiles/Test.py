@@ -56,7 +56,7 @@ flattened_df = streaming_df.select(
 processed_df = flattened_df.withColumn("transaction_time", expr("timestamp_millis(transaction_timestamp)")) \
                            .withColumn("stock_time", expr("timestamp_millis(stock_timestamp)"))
 
-# ✅ Try to write stream to Jupyter Notebook if supported, else fallback to console
+# ✅ Try to write stream to in-memory table for Jupyter Notebook, otherwise fallback to console
 try:
     query = processed_df.writeStream \
         .outputMode("append") \
@@ -66,7 +66,7 @@ try:
 
     print("✅ Streaming started. Run `spark.sql('SELECT * FROM streaming_table').show(truncate=False)` to see real-time data in Jupyter Notebook.")
 
-except Exception as e:
+except Exception:
     print("⚠️ Jupyter Notebook output not supported, switching to console.")
     query = processed_df.writeStream \
         .outputMode("append") \
