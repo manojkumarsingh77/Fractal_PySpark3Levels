@@ -1,8 +1,6 @@
 from pyspark.sql import SparkSession
 from pyspark.sql.functions import col, expr
 from pyspark.sql.types import StructType, StructField, StringType, DoubleType, LongType
-import pandas as pd
-import time
 
 # Create Spark Session
 spark = SparkSession.builder \
@@ -58,28 +56,22 @@ flattened_df = streaming_df.select(
 processed_df = flattened_df.withColumn("transaction_time", expr("timestamp_millis(transaction_timestamp)")) \
                            .withColumn("stock_time", expr("timestamp_millis(stock_timestamp)"))
 
-# ✅ Store Streaming Data in Pandas DataFrame for Jupyter Notebook Output
-def process_batch(batch_df, batch_id):
-    """ Function to process each micro-batch and display in Jupyter Notebook """
-    print(f"\n🔄 Processing Batch {batch_id}...\n")
-    
-    # Convert to Pandas DataFrame
-    pandas_df = batch_df.toPandas()
+# ✅ Try to write stream to Jupyter Notebook if supported, else fallback to console
+try:
+    query = processed_df.writeStream \
+        .outputMode("append") \
+        .format("memory") \
+        .queryName("streaming_table") \
+        .start()
 
-    # ✅ Convert timestamp columns to `datetime64[ns]` explicitly
-    pandas_df["transaction_time"] = pd.to_datetime(pandas_df["transaction_time"], unit='ms')
-    pandas_df["stock_time"] = pd.to_datetime(pandas_df["stock_time"], unit='ms')
+    print("✅ Streaming started. Run `spark.sql('SELECT * FROM streaming_table').show(truncate=False)` to see real-time data in Jupyter Notebook.")
 
-    # Display Data in Jupyter Notebook
-    if not pandas_df.empty:
-        from IPython.display import display, clear_output
-        clear_output(wait=True)  # Clear previous output
-        display(pandas_df)  # Show new batch
-
-# Start Streaming Query and Send Data to Jupyter Notebook Output
-query = processed_df.writeStream \
-    .outputMode("append") \
-    .foreachBatch(process_batch) \
-    .start()
+except Exception as e:
+    print("⚠️ Jupyter Notebook output not supported, switching to console.")
+    query = processed_df.writeStream \
+        .outputMode("append") \
+        .format("console") \
+        .option("truncate", "false") \
+        .start()
 
 query.awaitTermination()
