@@ -66,6 +66,10 @@ def process_batch(batch_df, batch_id):
     # Convert to Pandas DataFrame
     pandas_df = batch_df.toPandas()
 
+    # ✅ Convert timestamp columns to `datetime64[ns]` explicitly
+    pandas_df["transaction_time"] = pd.to_datetime(pandas_df["transaction_time"], unit='ms')
+    pandas_df["stock_time"] = pd.to_datetime(pandas_df["stock_time"], unit='ms')
+
     # Display Data in Jupyter Notebook
     if not pandas_df.empty:
         from IPython.display import display, clear_output
