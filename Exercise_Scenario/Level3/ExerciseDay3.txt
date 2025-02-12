@@ -1,0 +1,40 @@
+Use DataSets:
+#/home/labuser/Documents/Level3/Day3/DataDemo/customers.parquet
+#/home/labuser/Documents/Level3/Day3/DataDemo/bank_loans.parquet
+#/home/labuser/Documents/Level3/Day3/DataDemo/branches.parquets
+
+1. Scenario 1: Optimizing Loan Aggregation Using AQE
+Objective: Improve query performance using Adaptive Query Execution (AQE) for loan aggregation analysis.
+
+Business Context
+A bank wants to analyze the total loan amount disbursed per branch. The dataset consists of:
+
+customers.parquet: Contains customer details.
+bank_loans.parquet: Contains loan transactions, including customer_id, branch_id, and loan_amount.
+branches.parquet: Contains branch details with branch_id and region.
+The initial Spark query runs slowly because it does not dynamically coalesce shuffle partitions. You will enable AQE's optimizations to improve performance.
+
+
+Expected Outcome
+Without AQE, the shuffle partitions remain static even if some partitions are skewed.
+With AQE, Spark dynamically optimizes shuffle partitions, resulting in:
+Fewer small shuffle partitions.
+Better performance for the query.
+Less data movement in the cluster.
+
+
+2. Scenario 2: Improving Loan Query Performance Using Dynamic Partition Pruning
+Objective: Enable Dynamic Partition Pruning (DPP) to optimize query execution for partitioned datasets.
+
+Business Context
+A bank wants to fetch loan details of customers belonging to a specific region, but the bank_loans dataset is partitioned by branch_id. If partition pruning is not enabled, Spark reads all partitions, leading to poor performance.
+
+Using Dynamic Partition Pruning, we optimize the query to only scan relevant partitions dynamically.
+
+
+Expected Outcome
+Without DPP, Spark scans all partitions in bank_loans, even if we only need specific branches.
+With DPP, Spark prunes partitions dynamically during query execution, leading to:
+Faster query execution.
+Less I/O overhead (only relevant partitions are read).
+Efficient resource utilization.
