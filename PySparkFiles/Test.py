@@ -8,7 +8,7 @@ spark = SparkSession.builder \
     .config("spark.sql.streaming.schemaInference", "true") \
     .getOrCreate()
 
-# Define the schema for banking transactions
+# Define schema for banking transactions
 banking_schema = StructType([
     StructField("account_id", StringType(), True),
     StructField("transaction_amount", DoubleType(), True),
@@ -17,30 +17,31 @@ banking_schema = StructType([
     StructField("timestamp", LongType(), True)  # TIMESTAMP(MILLIS)
 ])
 
-# Define the schema for stock market data
+# Define schema for stock market data
 stock_schema = StructType([
     StructField("stock_symbol", StringType(), True),
     StructField("stock_price", DoubleType(), True),
     StructField("timestamp", LongType(), True)  # TIMESTAMP(MILLIS)
 ])
 
-# Define the schema for the overall JSON structure
+# Define schema for full JSON structure
 schema = StructType([
     StructField("banking_transaction", banking_schema, True),
     StructField("stock_data", stock_schema, True)
 ])
 
-# Define the input directory where JSON files are arriving
+# Set input directory where JSON files are arriving
 input_directory = "/home/labuser/Documents/Level3/Day3/StreamingData/"
 
-# Read streaming data from the input directory
+# Read streaming data from JSON files
 streaming_df = spark.readStream \
     .format("json") \
     .schema(schema) \
     .option("maxFilesPerTrigger", 1) \
+    .option("mode", "PERMISSIVE") \
     .load(input_directory)
 
-# Flatten the JSON structure
+# 🔥 Fix: Extract nested JSON fields correctly
 flattened_df = streaming_df.select(
     col("banking_transaction.account_id").alias("account_id"),
     col("banking_transaction.transaction_amount").alias("transaction_amount"),
@@ -52,11 +53,14 @@ flattened_df = streaming_df.select(
     col("stock_data.timestamp").alias("stock_timestamp")
 )
 
-# Convert timestamp from TIMESTAMP(MILLIS) to readable format
+# 🔥 Fix: Convert timestamp from TIMESTAMP(MILLIS) to readable format
 processed_df = flattened_df.withColumn("transaction_time", expr("timestamp_millis(transaction_timestamp)")) \
                            .withColumn("stock_time", expr("timestamp_millis(stock_timestamp)"))
 
-# ✅ Try to write stream to in-memory table for Jupyter Notebook, otherwise fallback to console
+# ✅ Debug: Print schema to verify correct extraction
+processed_df.printSchema()
+
+# ✅ Try to display stream in Jupyter Notebook if possible, otherwise fallback to console
 try:
     query = processed_df.writeStream \
         .outputMode("append") \
