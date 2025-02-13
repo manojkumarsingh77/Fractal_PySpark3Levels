@@ -3,6 +3,6 @@ Use Data Set present here - Data/Level3/Day4
 
 - Load the Loan amount data in to the dataFrame and caluclate the total LoanAmount to show to a Report at the end of the day to Bank Manager.
  - Process Transaction data and aggrigate the amount of transaction to see total transaction done by per cudtomer.
- - Process and Load Customer data, then group the customer with customer id and give me the count of the customer. 
+ - Process and Load Customer data from Transaction files, then group the customer with customer id and give me the count of the customer. 
  - Give me a Report showing Transaction done by customer from Transaction and customer files.
  - Start using Spark Structure Streaming using Shocket terminal level messing and see if this code works fine : stream_df = spark.readStream.format("socket").option("host", "localhost").option("port", "9999").load()
