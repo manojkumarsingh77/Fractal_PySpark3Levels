@@ -1,0 +1,1001 @@
+CustomerID,Name,Age,Gender,City,AccountType,Balance
+1,Customer-1,58,Male,New York,Business,14476.44
+2,Customer-2,32,Male,New York,Business,37292.72
+3,Customer-3,52,Male,Miami,Current,2557.35
+4,Customer-4,23,Male,Los Angeles,Business,30498.92
+5,Customer-5,53,Male,Miami,Current,11801.59
+6,Customer-6,55,Female,New York,Savings,35208.83
+7,Customer-7,39,Female,Los Angeles,Savings,47903.44
+8,Customer-8,39,Male,New York,Current,5739.1
+9,Customer-9,72,Female,Miami,Current,40549.29
+10,Customer-10,64,Female,Miami,Savings,48682.67
+11,Customer-11,42,Male,Miami,Current,41640.83
+12,Customer-12,57,Female,Miami,Savings,35524.02
+13,Customer-13,20,Male,Chicago,Savings,42910.57
+14,Customer-14,73,Male,Houston,Current,23217.1
+15,Customer-15,71,Female,Los Angeles,Current,18408.26
+16,Customer-16,60,Female,New York,Business,32113.94
+17,Customer-17,52,Male,Los Angeles,Current,19593.32
+18,Customer-18,58,Male,Chicago,Savings,12223.36
+19,Customer-19,20,Female,Houston,Current,4243.24
+20,Customer-20,54,Female,Los Angeles,Business,25462.33
+21,Customer-21,74,Female,Los Angeles,Current,7841.89
+22,Customer-22,65,Female,Miami,Current,44993.32
+23,Customer-23,43,Female,Los Angeles,Savings,25966.79
+24,Customer-24,23,Male,New York,Savings,31744.86
+25,Customer-25,68,Female,Miami,Savings,19853.6
+26,Customer-26,56,Female,Miami,Current,48582.84
+27,Customer-27,73,Male,New York,Business,44354.63
+28,Customer-28,66,Female,Chicago,Savings,15381.51
+29,Customer-29,28,Female,New York,Business,43916.79
+30,Customer-30,34,Male,Miami,Savings,43655.41
+31,Customer-31,37,Male,Los Angeles,Current,38363.03
+32,Customer-32,52,Male,Miami,Current,24941.68
+33,Customer-33,25,Female,Chicago,Savings,3838.33
+34,Customer-34,74,Male,New York,Business,24813.53
+35,Customer-35,22,Male,Los Angeles,Business,24288.84
+36,Customer-36,53,Male,Chicago,Business,43749.22
+37,Customer-37,45,Male,Miami,Business,34803.51
+38,Customer-38,63,Female,Houston,Business,32844.02
+39,Customer-39,46,Female,New York,Savings,12010.17
+40,Customer-40,39,Male,Miami,Business,12275.62
+41,Customer-41,32,Male,New York,Business,31924.04
+42,Customer-42,32,Male,New York,Current,4472.01
+43,Customer-43,33,Female,Houston,Savings,27422.46
+44,Customer-44,64,Female,Los Angeles,Current,40567.35
+45,Customer-45,30,Male,New York,Business,22121.51
+46,Customer-46,45,Female,Houston,Business,3654.39
+47,Customer-47,59,Male,New York,Current,36682.47
+48,Customer-48,69,Male,Los Angeles,Savings,10320.24
+49,Customer-49,46,Male,Houston,Savings,14648.71
+50,Customer-50,33,Male,Houston,Business,5797.53
+51,Customer-51,59,Male,New York,Savings,9149.24
+52,Customer-52,49,Female,Los Angeles,Current,45219.7
+53,Customer-53,28,Female,New York,Current,13994.95
+54,Customer-54,68,Female,Chicago,Current,35132.98
+55,Customer-55,64,Female,Los Angeles,Savings,15538.68
+56,Customer-56,21,Male,Chicago,Savings,3456.97
+57,Customer-57,48,Male,New York,Business,4925.46
+58,Customer-58,29,Male,Miami,Savings,34085.42
+59,Customer-59,33,Female,New York,Business,13064.55
+60,Customer-60,56,Male,Miami,Savings,21542.02
+61,Customer-61,55,Female,Chicago,Savings,33816.57
+62,Customer-62,38,Male,Chicago,Current,7413.04
+63,Customer-63,59,Female,Houston,Current,46521.9
+64,Customer-64,22,Male,Houston,Business,49924.27
+65,Customer-65,24,Male,Miami,Savings,25788.35
+66,Customer-66,26,Female,New York,Savings,19106.83
+67,Customer-67,28,Female,Miami,Business,15823.34
+68,Customer-68,69,Male,Miami,Current,46656.05
+69,Customer-69,24,Male,Chicago,Savings,44595.92
+70,Customer-70,65,Male,Chicago,Current,30636.66
+71,Customer-71,63,Female,Los Angeles,Business,32077.66
+72,Customer-72,34,Female,Chicago,Savings,5522.62
+73,Customer-73,45,Female,New York,Savings,17344.27
+74,Customer-74,26,Female,Los Angeles,Business,22649.94
+75,Customer-75,63,Female,Miami,Savings,6481.82
+76,Customer-76,74,Male,Miami,Savings,41895.16
+77,Customer-77,55,Male,Houston,Savings,3049.61
+78,Customer-78,41,Male,Chicago,Savings,34421.27
+79,Customer-79,60,Male,Chicago,Business,44322.6
+80,Customer-80,44,Male,Los Angeles,Savings,48834.1
+81,Customer-81,69,Male,Houston,Savings,9788.67
+82,Customer-82,39,Female,Los Angeles,Current,8800.69
+83,Customer-83,62,Male,Houston,Savings,43071.07
+84,Customer-84,32,Male,Houston,Current,15954.35
+85,Customer-85,68,Male,Los Angeles,Savings,33341.63
+86,Customer-86,43,Female,Chicago,Savings,48377.57
+87,Customer-87,35,Female,Miami,Current,34296.39
+88,Customer-88,71,Female,New York,Savings,43974.88
+89,Customer-89,34,Male,Miami,Current,2874.6
+90,Customer-90,56,Female,Chicago,Business,39534.98
+91,Customer-91,45,Male,Houston,Business,10313.86
+92,Customer-92,20,Female,New York,Business,46353.18
+93,Customer-93,52,Male,Chicago,Current,4428.72
+94,Customer-94,60,Female,Miami,Current,33505.99
+95,Customer-95,25,Female,Miami,Current,33677.75
+96,Customer-96,38,Female,Chicago,Business,7237.1
+97,Customer-97,44,Female,Los Angeles,Business,28886.16
+98,Customer-98,43,Male,Chicago,Current,11298.95
+99,Customer-99,68,Female,Houston,Current,22665.83
+100,Customer-100,31,Female,Los Angeles,Business,5154.98
+101,Customer-101,50,Female,New York,Savings,33966.99
+102,Customer-102,32,Male,Los Angeles,Savings,3264.47
+103,Customer-103,48,Male,Houston,Current,44420.71
+104,Customer-104,54,Male,Houston,Current,20582.99
+105,Customer-105,27,Male,New York,Current,11723.22
+106,Customer-106,69,Female,New York,Business,13210.72
+107,Customer-107,72,Male,Houston,Savings,40269.41
+108,Customer-108,60,Female,Houston,Business,40935.32
+109,Customer-109,75,Female,Miami,Current,44963.2
+110,Customer-110,65,Female,Houston,Current,37837.06
+111,Customer-111,71,Female,Miami,Current,31710.67
+112,Customer-112,35,Female,New York,Business,15000.68
+113,Customer-113,35,Female,Chicago,Business,4948.31
+114,Customer-114,27,Male,Houston,Business,8487.46
+115,Customer-115,31,Male,Houston,Current,17213.19
+116,Customer-116,47,Female,New York,Savings,41811.67
+117,Customer-117,42,Male,Miami,Current,24372.01
+118,Customer-118,40,Female,Houston,Current,27372.81
+119,Customer-119,65,Male,Houston,Savings,14373.83
+120,Customer-120,49,Male,Houston,Current,33774.81
+121,Customer-121,69,Female,Los Angeles,Current,46057.54
+122,Customer-122,57,Male,Houston,Business,28655.21
+123,Customer-123,19,Male,Houston,Savings,43475.72
+124,Customer-124,29,Male,Chicago,Current,17040.28
+125,Customer-125,47,Female,Chicago,Current,14634.57
+126,Customer-126,71,Female,Chicago,Savings,24045.03
+127,Customer-127,65,Male,Chicago,Savings,32857.06
+128,Customer-128,67,Male,New York,Savings,10768.67
+129,Customer-129,19,Male,Los Angeles,Savings,24204.49
+130,Customer-130,25,Male,Houston,Business,13555.94
+131,Customer-131,41,Male,Miami,Business,48223.0
+132,Customer-132,63,Male,Los Angeles,Current,6296.84
+133,Customer-133,19,Female,Miami,Business,45493.28
+134,Customer-134,42,Female,Los Angeles,Savings,30012.8
+135,Customer-135,71,Male,New York,Business,38851.56
+136,Customer-136,72,Male,Miami,Savings,18012.98
+137,Customer-137,45,Female,New York,Business,32729.62
+138,Customer-138,18,Female,Houston,Savings,22242.65
+139,Customer-139,41,Female,Los Angeles,Current,9630.71
+140,Customer-140,51,Female,Miami,Business,38957.43
+141,Customer-141,47,Female,Miami,Current,16792.92
+142,Customer-142,33,Male,Chicago,Current,12949.31
+143,Customer-143,47,Female,Chicago,Savings,25221.02
+144,Customer-144,38,Male,Houston,Savings,18386.42
+145,Customer-145,34,Female,Chicago,Business,35358.0
+146,Customer-146,35,Male,Miami,Savings,5195.04
+147,Customer-147,64,Female,Houston,Business,38150.07
+148,Customer-148,62,Female,Houston,Current,39853.71
+149,Customer-149,23,Female,Los Angeles,Current,34897.57
+150,Customer-150,37,Female,Houston,Business,27015.17
+151,Customer-151,45,Female,Chicago,Business,23233.52
+152,Customer-152,37,Female,Los Angeles,Savings,36342.93
+153,Customer-153,38,Male,Miami,Business,10072.34
+154,Customer-154,31,Female,Chicago,Business,29889.76
+155,Customer-155,66,Female,New York,Savings,15516.08
+156,Customer-156,41,Male,Chicago,Savings,35692.91
+157,Customer-157,26,Female,New York,Savings,28114.59
+158,Customer-158,62,Male,Houston,Savings,43763.27
+159,Customer-159,54,Female,Houston,Current,22582.97
+160,Customer-160,29,Male,Chicago,Current,6590.27
+161,Customer-161,22,Female,Houston,Savings,29274.04
+162,Customer-162,61,Male,Los Angeles,Savings,40745.96
+163,Customer-163,37,Male,Los Angeles,Savings,28345.58
+164,Customer-164,44,Male,Miami,Current,23075.21
+165,Customer-165,46,Female,Miami,Current,15963.63
+166,Customer-166,57,Male,Miami,Business,5862.45
+167,Customer-167,66,Male,Los Angeles,Current,33360.98
+168,Customer-168,28,Male,Los Angeles,Business,4678.18
+169,Customer-169,18,Female,Houston,Business,30096.75
+170,Customer-170,36,Male,Los Angeles,Current,35640.84
+171,Customer-171,62,Female,New York,Business,12437.77
+172,Customer-172,34,Male,Houston,Savings,27683.56
+173,Customer-173,59,Male,Chicago,Savings,4499.08
+174,Customer-174,28,Female,Miami,Business,41387.77
+175,Customer-175,36,Female,New York,Current,34745.22
+176,Customer-176,62,Female,Chicago,Business,27459.1
+177,Customer-177,46,Male,Miami,Savings,44581.72
+178,Customer-178,65,Female,Miami,Current,2267.38
+179,Customer-179,32,Male,Chicago,Business,2971.35
+180,Customer-180,66,Male,Houston,Business,32923.96
+181,Customer-181,35,Male,Miami,Current,32104.45
+182,Customer-182,49,Male,Houston,Current,21009.06
+183,Customer-183,38,Male,Los Angeles,Current,21170.61
+184,Customer-184,49,Female,Houston,Business,2798.16
+185,Customer-185,23,Female,Chicago,Current,6680.16
+186,Customer-186,67,Female,Miami,Savings,33225.36
+187,Customer-187,52,Female,Houston,Savings,10191.54
+188,Customer-188,41,Female,Houston,Savings,10974.35
+189,Customer-189,53,Male,Chicago,Current,44161.48
+190,Customer-190,49,Male,New York,Business,30834.71
+191,Customer-191,33,Male,Chicago,Business,1670.05
+192,Customer-192,44,Male,Los Angeles,Savings,23610.95
+193,Customer-193,25,Male,Houston,Business,15301.22
+194,Customer-194,63,Female,Houston,Current,49031.99
+195,Customer-195,33,Female,Miami,Savings,19795.71
+196,Customer-196,56,Male,New York,Current,38861.08
+197,Customer-197,72,Female,Chicago,Business,14091.46
+198,Customer-198,18,Female,Chicago,Business,29416.25
+199,Customer-199,60,Female,Los Angeles,Current,27390.45
+200,Customer-200,40,Female,Miami,Business,19483.29
+201,Customer-201,38,Male,Los Angeles,Business,19765.57
+202,Customer-202,72,Female,New York,Current,37490.55
+203,Customer-203,63,Female,Houston,Business,39827.29
+204,Customer-204,59,Male,Houston,Savings,7186.07
+205,Customer-205,55,Female,New York,Current,5885.87
+206,Customer-206,47,Male,Los Angeles,Current,43675.72
+207,Customer-207,27,Male,Houston,Current,17589.5
+208,Customer-208,62,Female,New York,Current,42764.73
+209,Customer-209,72,Female,Chicago,Business,36217.15
+210,Customer-210,66,Female,Miami,Savings,31255.51
+211,Customer-211,33,Female,Los Angeles,Business,5428.59
+212,Customer-212,24,Male,Houston,Savings,35006.06
+213,Customer-213,75,Male,New York,Current,40011.03
+214,Customer-214,36,Female,Chicago,Current,8132.92
+215,Customer-215,51,Female,Miami,Business,39833.45
+216,Customer-216,28,Male,New York,Business,43671.14
+217,Customer-217,57,Male,Houston,Business,8012.77
+218,Customer-218,47,Female,Houston,Current,33675.2
+219,Customer-219,75,Female,Chicago,Business,27783.31
+220,Customer-220,22,Female,Chicago,Business,15658.56
+221,Customer-221,45,Female,Houston,Current,10761.63
+222,Customer-222,42,Female,New York,Savings,19686.85
+223,Customer-223,40,Female,Chicago,Savings,48919.28
+224,Customer-224,60,Female,Chicago,Savings,28730.52
+225,Customer-225,61,Male,Miami,Business,25339.64
+226,Customer-226,75,Female,Los Angeles,Business,40294.67
+227,Customer-227,32,Male,Miami,Current,34210.46
+228,Customer-228,64,Male,New York,Business,32670.69
+229,Customer-229,37,Female,New York,Business,18878.2
+230,Customer-230,26,Male,Chicago,Current,37626.56
+231,Customer-231,29,Male,Los Angeles,Business,43946.57
+232,Customer-232,41,Female,Los Angeles,Current,45788.4
+233,Customer-233,48,Female,Chicago,Savings,23948.24
+234,Customer-234,22,Male,Los Angeles,Business,36486.62
+235,Customer-235,43,Female,New York,Current,1682.01
+236,Customer-236,52,Male,Houston,Current,33968.59
+237,Customer-237,61,Female,Miami,Current,41298.45
+238,Customer-238,41,Male,Los Angeles,Current,2226.21
+239,Customer-239,74,Female,Miami,Savings,32734.97
+240,Customer-240,58,Female,Chicago,Business,21006.5
+241,Customer-241,26,Male,New York,Current,49800.44
+242,Customer-242,25,Male,Los Angeles,Business,7647.54
+243,Customer-243,47,Female,Miami,Current,29779.68
+244,Customer-244,64,Male,Houston,Business,5852.06
+245,Customer-245,49,Female,Chicago,Savings,34823.75
+246,Customer-246,31,Female,Houston,Savings,42917.06
+247,Customer-247,24,Female,Miami,Business,18575.02
+248,Customer-248,43,Female,Los Angeles,Savings,47501.53
+249,Customer-249,70,Female,New York,Business,11393.18
+250,Customer-250,58,Male,New York,Current,12934.88
+251,Customer-251,26,Male,New York,Business,11150.71
+252,Customer-252,31,Male,Chicago,Savings,39643.54
+253,Customer-253,56,Male,Chicago,Savings,49388.84
+254,Customer-254,52,Female,Los Angeles,Savings,33391.82
+255,Customer-255,19,Male,New York,Current,39709.25
+256,Customer-256,33,Female,New York,Savings,14003.01
+257,Customer-257,26,Female,Miami,Savings,37537.6
+258,Customer-258,48,Female,Chicago,Business,30089.63
+259,Customer-259,46,Male,Miami,Savings,36634.91
+260,Customer-260,73,Female,Houston,Business,48237.28
+261,Customer-261,21,Female,Houston,Current,34618.78
+262,Customer-262,49,Female,New York,Savings,16783.48
+263,Customer-263,27,Male,Los Angeles,Current,31591.56
+264,Customer-264,55,Female,Houston,Business,26997.29
+265,Customer-265,47,Female,New York,Business,6606.29
+266,Customer-266,59,Male,Houston,Current,44516.46
+267,Customer-267,44,Female,Houston,Current,21383.49
+268,Customer-268,24,Female,Houston,Current,33590.29
+269,Customer-269,41,Male,Houston,Savings,5470.01
+270,Customer-270,23,Male,Houston,Savings,37484.86
+271,Customer-271,41,Male,Miami,Savings,29736.79
+272,Customer-272,53,Female,New York,Current,18326.31
+273,Customer-273,60,Female,New York,Current,30420.09
+274,Customer-274,40,Male,Miami,Business,11424.2
+275,Customer-275,60,Female,Los Angeles,Savings,18155.59
+276,Customer-276,53,Female,New York,Current,29130.9
+277,Customer-277,69,Female,Miami,Business,31065.09
+278,Customer-278,59,Male,Miami,Business,41643.58
+279,Customer-279,35,Male,Los Angeles,Current,35432.24
+280,Customer-280,37,Female,Chicago,Savings,9888.87
+281,Customer-281,27,Female,New York,Savings,37307.48
+282,Customer-282,19,Male,Miami,Savings,19433.53
+283,Customer-283,47,Female,Los Angeles,Current,16270.23
+284,Customer-284,38,Male,New York,Savings,8713.08
+285,Customer-285,57,Male,New York,Current,22712.54
+286,Customer-286,45,Female,Miami,Current,21295.0
+287,Customer-287,31,Male,Chicago,Current,6433.6
+288,Customer-288,61,Female,Miami,Business,16112.55
+289,Customer-289,32,Female,Miami,Savings,1376.67
+290,Customer-290,37,Male,Los Angeles,Current,15182.91
+291,Customer-291,25,Male,Houston,Business,22102.1
+292,Customer-292,26,Female,Miami,Business,12275.43
+293,Customer-293,53,Female,New York,Current,43226.45
+294,Customer-294,20,Female,New York,Current,46136.96
+295,Customer-295,73,Female,Miami,Current,29096.58
+296,Customer-296,63,Female,Chicago,Savings,20846.58
+297,Customer-297,38,Male,Miami,Current,41769.27
+298,Customer-298,41,Male,Houston,Savings,12922.51
+299,Customer-299,55,Female,Miami,Savings,20392.57
+300,Customer-300,37,Female,Los Angeles,Current,39176.78
+301,Customer-301,22,Male,Miami,Business,10501.28
+302,Customer-302,67,Female,Chicago,Business,47952.94
+303,Customer-303,59,Male,Los Angeles,Savings,8175.77
+304,Customer-304,30,Male,Miami,Savings,38250.55
+305,Customer-305,59,Male,Los Angeles,Business,25211.73
+306,Customer-306,66,Female,Miami,Business,32129.62
+307,Customer-307,57,Female,Chicago,Savings,22548.38
+308,Customer-308,48,Female,Chicago,Current,29979.57
+309,Customer-309,40,Male,Chicago,Current,23143.78
+310,Customer-310,21,Female,Chicago,Savings,32588.66
+311,Customer-311,72,Male,Miami,Business,25846.32
+312,Customer-312,47,Male,Houston,Business,32940.04
+313,Customer-313,38,Female,Miami,Savings,47928.4
+314,Customer-314,46,Male,Chicago,Business,5132.13
+315,Customer-315,59,Male,New York,Savings,35673.46
+316,Customer-316,46,Male,Chicago,Current,45978.9
+317,Customer-317,42,Female,Chicago,Business,30296.41
+318,Customer-318,68,Female,New York,Current,5630.79
+319,Customer-319,61,Female,Chicago,Current,36462.95
+320,Customer-320,60,Male,Chicago,Savings,29554.24
+321,Customer-321,27,Female,Chicago,Business,35225.52
+322,Customer-322,43,Male,Miami,Business,46962.11
+323,Customer-323,37,Female,Chicago,Savings,33835.7
+324,Customer-324,71,Male,Houston,Business,18729.58
+325,Customer-325,41,Female,Los Angeles,Savings,17744.88
+326,Customer-326,67,Female,Los Angeles,Savings,49998.85
+327,Customer-327,27,Male,Chicago,Savings,25876.8
+328,Customer-328,52,Male,Chicago,Business,7421.4
+329,Customer-329,42,Male,Los Angeles,Savings,41735.91
+330,Customer-330,67,Male,Houston,Savings,21132.07
+331,Customer-331,61,Male,Houston,Business,14961.47
+332,Customer-332,65,Female,Los Angeles,Business,12719.26
+333,Customer-333,69,Female,Los Angeles,Current,34237.03
+334,Customer-334,54,Female,Houston,Current,39128.08
+335,Customer-335,50,Female,Los Angeles,Savings,40261.7
+336,Customer-336,26,Female,New York,Business,24548.94
+337,Customer-337,41,Male,Miami,Savings,14968.09
+338,Customer-338,66,Male,Chicago,Current,45360.0
+339,Customer-339,27,Female,New York,Savings,41018.46
+340,Customer-340,74,Female,New York,Current,3609.59
+341,Customer-341,50,Female,Los Angeles,Current,49731.74
+342,Customer-342,41,Male,New York,Current,46610.47
+343,Customer-343,71,Female,Los Angeles,Savings,2876.86
+344,Customer-344,71,Female,Los Angeles,Business,23986.4
+345,Customer-345,57,Male,New York,Savings,13540.27
+346,Customer-346,71,Male,Miami,Business,30835.12
+347,Customer-347,45,Male,Chicago,Savings,15756.41
+348,Customer-348,21,Male,Houston,Business,39901.06
+349,Customer-349,47,Male,New York,Current,30240.21
+350,Customer-350,19,Male,Los Angeles,Current,22032.71
+351,Customer-351,57,Female,Los Angeles,Business,21411.81
+352,Customer-352,60,Male,Miami,Current,4316.29
+353,Customer-353,51,Male,Houston,Current,3133.19
+354,Customer-354,42,Female,Chicago,Business,1795.87
+355,Customer-355,68,Male,Chicago,Savings,36914.11
+356,Customer-356,58,Male,Miami,Business,38077.27
+357,Customer-357,26,Male,Chicago,Business,17588.82
+358,Customer-358,59,Male,Houston,Business,24448.03
+359,Customer-359,29,Male,New York,Business,39033.33
+360,Customer-360,47,Male,Chicago,Savings,3146.51
+361,Customer-361,30,Male,Chicago,Current,26253.8
+362,Customer-362,70,Female,Chicago,Savings,37911.26
+363,Customer-363,30,Female,Chicago,Savings,43424.12
+364,Customer-364,39,Female,New York,Current,22410.62
+365,Customer-365,43,Female,Houston,Current,48712.46
+366,Customer-366,49,Female,Chicago,Business,14069.31
+367,Customer-367,23,Female,New York,Current,30520.21
+368,Customer-368,70,Male,Miami,Current,16739.36
+369,Customer-369,23,Female,Chicago,Current,22849.87
+370,Customer-370,63,Female,Los Angeles,Business,22751.51
+371,Customer-371,46,Male,Chicago,Business,49909.38
+372,Customer-372,35,Male,New York,Business,32238.11
+373,Customer-373,41,Male,New York,Savings,42584.8
+374,Customer-374,61,Female,New York,Savings,4294.43
+375,Customer-375,67,Female,Chicago,Current,47523.89
+376,Customer-376,20,Male,Houston,Current,19228.66
+377,Customer-377,66,Male,Miami,Savings,26943.53
+378,Customer-378,43,Female,Chicago,Savings,48065.48
+379,Customer-379,19,Male,Houston,Business,19962.38
+380,Customer-380,53,Male,Chicago,Current,35497.85
+381,Customer-381,31,Female,Houston,Savings,7009.23
+382,Customer-382,72,Male,Houston,Savings,45035.27
+383,Customer-383,46,Male,Chicago,Business,18023.84
+384,Customer-384,22,Female,Chicago,Savings,35878.65
+385,Customer-385,62,Male,Chicago,Business,11987.84
+386,Customer-386,30,Male,Los Angeles,Current,2287.92
+387,Customer-387,53,Female,Houston,Business,7358.79
+388,Customer-388,74,Male,New York,Current,20509.84
+389,Customer-389,63,Female,Miami,Current,38689.06
+390,Customer-390,70,Male,Los Angeles,Current,32474.59
+391,Customer-391,46,Female,Miami,Current,7288.4
+392,Customer-392,71,Male,Los Angeles,Current,25640.33
+393,Customer-393,73,Male,New York,Business,8497.76
+394,Customer-394,28,Male,Chicago,Business,12048.04
+395,Customer-395,51,Female,New York,Current,10618.79
+396,Customer-396,53,Female,Los Angeles,Business,15838.41
+397,Customer-397,52,Male,Miami,Business,9263.16
+398,Customer-398,55,Male,Los Angeles,Business,31599.48
+399,Customer-399,75,Female,Miami,Savings,41436.58
+400,Customer-400,19,Male,New York,Business,38780.1
+401,Customer-401,34,Male,Miami,Current,31287.31
+402,Customer-402,19,Female,Miami,Current,32453.46
+403,Customer-403,37,Female,Los Angeles,Business,20898.53
+404,Customer-404,47,Male,New York,Savings,22540.67
+405,Customer-405,48,Female,Los Angeles,Current,30726.35
+406,Customer-406,38,Female,Chicago,Current,7407.54
+407,Customer-407,41,Male,Chicago,Savings,23857.16
+408,Customer-408,35,Female,Los Angeles,Savings,5743.77
+409,Customer-409,36,Female,Miami,Current,13165.24
+410,Customer-410,73,Male,Chicago,Business,36335.29
+411,Customer-411,30,Male,Houston,Business,23873.94
+412,Customer-412,74,Female,Houston,Savings,5412.41
+413,Customer-413,43,Female,Los Angeles,Savings,29583.86
+414,Customer-414,21,Male,Chicago,Current,30278.42
+415,Customer-415,71,Female,Chicago,Business,1400.69
+416,Customer-416,24,Female,Los Angeles,Current,36647.9
+417,Customer-417,66,Female,Chicago,Savings,20628.5
+418,Customer-418,54,Male,Chicago,Business,15141.48
+419,Customer-419,42,Female,Miami,Current,41440.25
+420,Customer-420,57,Male,Los Angeles,Savings,20301.28
+421,Customer-421,68,Female,Miami,Current,37993.29
+422,Customer-422,30,Female,Miami,Savings,3219.86
+423,Customer-423,26,Female,Houston,Business,23392.44
+424,Customer-424,56,Male,Chicago,Business,16607.97
+425,Customer-425,43,Female,Miami,Current,25858.43
+426,Customer-426,50,Female,Miami,Current,24269.74
+427,Customer-427,19,Female,Chicago,Business,6370.62
+428,Customer-428,44,Female,New York,Business,24254.92
+429,Customer-429,59,Male,New York,Business,24541.99
+430,Customer-430,51,Female,Los Angeles,Business,12867.63
+431,Customer-431,54,Male,Los Angeles,Savings,22610.89
+432,Customer-432,44,Male,Houston,Business,10990.69
+433,Customer-433,50,Female,New York,Business,7766.04
+434,Customer-434,31,Female,Houston,Business,19464.41
+435,Customer-435,29,Female,Miami,Current,27767.39
+436,Customer-436,61,Female,Miami,Current,10420.94
+437,Customer-437,33,Female,Miami,Current,12018.48
+438,Customer-438,37,Female,Los Angeles,Business,35544.42
+439,Customer-439,38,Female,Chicago,Business,46751.32
+440,Customer-440,68,Female,Chicago,Savings,29100.36
+441,Customer-441,52,Female,Houston,Current,47775.83
+442,Customer-442,69,Male,Chicago,Savings,15093.89
+443,Customer-443,63,Male,Chicago,Current,33142.63
+444,Customer-444,65,Female,Los Angeles,Savings,41569.63
+445,Customer-445,35,Female,Los Angeles,Savings,31168.17
+446,Customer-446,55,Male,Los Angeles,Savings,33821.86
+447,Customer-447,51,Male,Los Angeles,Savings,5909.7
+448,Customer-448,39,Female,New York,Business,38767.54
+449,Customer-449,18,Male,Houston,Business,46816.57
+450,Customer-450,74,Female,Houston,Business,10773.34
+451,Customer-451,36,Female,Chicago,Business,3898.97
+452,Customer-452,67,Male,Miami,Savings,27222.46
+453,Customer-453,64,Male,Los Angeles,Current,44230.0
+454,Customer-454,29,Male,Houston,Current,10129.27
+455,Customer-455,65,Female,New York,Savings,15621.22
+456,Customer-456,56,Male,Chicago,Current,23263.1
+457,Customer-457,59,Female,Los Angeles,Business,23933.02
+458,Customer-458,30,Male,Chicago,Savings,36824.84
+459,Customer-459,59,Female,Los Angeles,Savings,37094.28
+460,Customer-460,68,Female,Miami,Business,38106.85
+461,Customer-461,29,Female,Houston,Business,17068.41
+462,Customer-462,43,Male,Los Angeles,Savings,24395.25
+463,Customer-463,33,Male,Chicago,Current,12540.54
+464,Customer-464,66,Female,Chicago,Current,29540.58
+465,Customer-465,54,Male,Chicago,Business,18618.05
+466,Customer-466,33,Male,New York,Current,16033.51
+467,Customer-467,43,Female,New York,Business,45890.39
+468,Customer-468,36,Female,Miami,Savings,11737.3
+469,Customer-469,26,Female,Los Angeles,Current,37639.01
+470,Customer-470,56,Female,Houston,Business,27912.49
+471,Customer-471,48,Male,Los Angeles,Business,37982.24
+472,Customer-472,73,Male,Miami,Current,26880.48
+473,Customer-473,41,Male,Miami,Savings,4026.14
+474,Customer-474,53,Male,Miami,Business,8342.77
+475,Customer-475,38,Female,New York,Business,11064.67
+476,Customer-476,55,Female,New York,Business,22828.65
+477,Customer-477,21,Female,Los Angeles,Business,21355.8
+478,Customer-478,54,Male,Miami,Current,33965.62
+479,Customer-479,37,Male,Houston,Current,41006.21
+480,Customer-480,65,Male,Miami,Savings,3219.2
+481,Customer-481,40,Male,Miami,Savings,46794.56
+482,Customer-482,22,Female,New York,Current,21034.48
+483,Customer-483,67,Male,Houston,Current,49649.97
+484,Customer-484,42,Female,Houston,Current,4932.25
+485,Customer-485,60,Male,Chicago,Savings,9745.21
+486,Customer-486,52,Female,Miami,Savings,36665.05
+487,Customer-487,32,Male,New York,Current,23687.19
+488,Customer-488,64,Female,Miami,Current,41344.66
+489,Customer-489,33,Female,Chicago,Savings,14506.84
+490,Customer-490,74,Male,New York,Business,21542.79
+491,Customer-491,67,Male,Los Angeles,Savings,4297.25
+492,Customer-492,56,Male,Houston,Business,33929.16
+493,Customer-493,73,Male,Los Angeles,Business,3167.6
+494,Customer-494,46,Male,Miami,Savings,37964.9
+495,Customer-495,67,Male,Los Angeles,Business,49680.69
+496,Customer-496,32,Female,Miami,Business,38854.37
+497,Customer-497,70,Female,Los Angeles,Current,43936.66
+498,Customer-498,60,Male,Houston,Current,14482.54
+499,Customer-499,53,Male,Houston,Business,25285.42
+500,Customer-500,40,Female,Miami,Current,35119.11
+501,Customer-501,44,Male,Chicago,Current,10010.07
+502,Customer-502,52,Female,Los Angeles,Savings,15736.08
+503,Customer-503,63,Male,Houston,Savings,28556.91
+504,Customer-504,44,Male,Houston,Savings,13494.79
+505,Customer-505,39,Male,Houston,Current,5530.74
+506,Customer-506,64,Male,New York,Current,19481.23
+507,Customer-507,56,Male,New York,Savings,40427.88
+508,Customer-508,55,Male,Houston,Savings,43604.22
+509,Customer-509,39,Female,New York,Savings,46920.83
+510,Customer-510,65,Male,Houston,Savings,35085.69
+511,Customer-511,63,Male,Houston,Savings,28051.89
+512,Customer-512,67,Female,Houston,Current,27148.86
+513,Customer-513,40,Female,Chicago,Current,26128.01
+514,Customer-514,49,Female,New York,Business,24005.03
+515,Customer-515,71,Female,Los Angeles,Current,16333.18
+516,Customer-516,20,Male,Los Angeles,Savings,13777.93
+517,Customer-517,55,Female,Chicago,Savings,10613.4
+518,Customer-518,32,Female,Miami,Savings,25465.77
+519,Customer-519,59,Female,Chicago,Current,48358.91
+520,Customer-520,59,Female,Houston,Savings,36905.84
+521,Customer-521,40,Male,Los Angeles,Business,27780.77
+522,Customer-522,29,Male,Miami,Savings,42114.36
+523,Customer-523,22,Male,New York,Current,7737.08
+524,Customer-524,58,Male,New York,Business,8400.45
+525,Customer-525,31,Female,Chicago,Savings,31273.93
+526,Customer-526,60,Female,Houston,Savings,1324.01
+527,Customer-527,53,Female,New York,Savings,26941.46
+528,Customer-528,35,Female,New York,Business,40844.7
+529,Customer-529,61,Female,Los Angeles,Savings,45984.39
+530,Customer-530,51,Male,Los Angeles,Savings,31369.26
+531,Customer-531,34,Female,Chicago,Current,4871.94
+532,Customer-532,43,Female,Miami,Savings,49521.42
+533,Customer-533,32,Female,New York,Business,49592.06
+534,Customer-534,59,Male,New York,Current,19583.94
+535,Customer-535,53,Female,New York,Business,1463.06
+536,Customer-536,28,Male,Houston,Current,32600.45
+537,Customer-537,39,Male,Miami,Savings,12258.56
+538,Customer-538,75,Female,Chicago,Savings,46283.8
+539,Customer-539,61,Female,Miami,Business,33247.35
+540,Customer-540,29,Female,New York,Savings,29764.77
+541,Customer-541,66,Female,New York,Current,8960.06
+542,Customer-542,33,Female,Miami,Current,19808.46
+543,Customer-543,65,Male,New York,Business,37527.37
+544,Customer-544,40,Male,New York,Current,12375.06
+545,Customer-545,22,Female,Miami,Business,47788.06
+546,Customer-546,43,Female,New York,Business,14393.02
+547,Customer-547,46,Female,Los Angeles,Current,28098.85
+548,Customer-548,42,Female,Los Angeles,Business,29707.88
+549,Customer-549,42,Male,Miami,Current,40104.7
+550,Customer-550,63,Male,New York,Current,8556.83
+551,Customer-551,63,Male,Houston,Current,18674.31
+552,Customer-552,23,Male,Chicago,Current,18635.96
+553,Customer-553,35,Male,Los Angeles,Savings,10182.2
+554,Customer-554,46,Female,New York,Savings,5391.32
+555,Customer-555,53,Male,Miami,Business,39437.5
+556,Customer-556,73,Female,New York,Current,21276.69
+557,Customer-557,67,Male,Miami,Savings,29026.06
+558,Customer-558,28,Female,Los Angeles,Savings,14177.03
+559,Customer-559,35,Female,Los Angeles,Savings,9193.16
+560,Customer-560,35,Female,Chicago,Current,39350.66
+561,Customer-561,41,Female,Los Angeles,Business,31626.65
+562,Customer-562,56,Male,Houston,Savings,7638.99
+563,Customer-563,18,Female,Chicago,Business,19614.61
+564,Customer-564,73,Female,Houston,Current,22100.19
+565,Customer-565,70,Male,Chicago,Current,30557.35
+566,Customer-566,62,Male,Houston,Current,9704.23
+567,Customer-567,43,Female,Chicago,Business,35052.93
+568,Customer-568,49,Male,Chicago,Current,14734.71
+569,Customer-569,68,Female,Chicago,Savings,46671.29
+570,Customer-570,30,Male,Miami,Savings,47697.23
+571,Customer-571,47,Male,Houston,Current,41732.81
+572,Customer-572,22,Female,Houston,Savings,32033.47
+573,Customer-573,33,Female,Los Angeles,Business,21733.27
+574,Customer-574,42,Male,Houston,Business,24482.5
+575,Customer-575,43,Female,Miami,Savings,39745.32
+576,Customer-576,41,Male,New York,Savings,33222.48
+577,Customer-577,40,Male,Miami,Savings,28597.79
+578,Customer-578,59,Female,Chicago,Current,6191.28
+579,Customer-579,24,Female,Los Angeles,Business,37595.8
+580,Customer-580,53,Male,Houston,Current,20165.57
+581,Customer-581,67,Male,Chicago,Savings,24655.78
+582,Customer-582,36,Female,New York,Savings,41734.57
+583,Customer-583,64,Male,Chicago,Current,17810.27
+584,Customer-584,68,Male,Miami,Current,18066.71
+585,Customer-585,24,Female,Houston,Current,4291.54
+586,Customer-586,20,Male,New York,Current,32750.53
+587,Customer-587,61,Male,Los Angeles,Business,9548.21
+588,Customer-588,28,Female,Miami,Current,47964.67
+589,Customer-589,32,Female,Los Angeles,Savings,32383.46
+590,Customer-590,45,Female,New York,Business,31091.24
+591,Customer-591,30,Female,Miami,Current,20052.95
+592,Customer-592,63,Male,Los Angeles,Current,37863.95
+593,Customer-593,69,Male,Miami,Savings,40175.62
+594,Customer-594,52,Male,Chicago,Current,10656.64
+595,Customer-595,25,Female,Houston,Business,48329.9
+596,Customer-596,38,Female,Miami,Current,29763.23
+597,Customer-597,40,Female,Houston,Business,9453.85
+598,Customer-598,61,Female,Miami,Business,5152.85
+599,Customer-599,26,Female,New York,Savings,15963.62
+600,Customer-600,29,Female,Los Angeles,Business,20034.7
+601,Customer-601,56,Male,Miami,Current,21728.9
+602,Customer-602,49,Male,Miami,Savings,24992.46
+603,Customer-603,26,Male,Chicago,Current,31351.09
+604,Customer-604,73,Female,New York,Current,7690.2
+605,Customer-605,70,Female,Miami,Business,33000.42
+606,Customer-606,44,Female,Houston,Business,42154.7
+607,Customer-607,49,Male,New York,Business,2512.17
+608,Customer-608,66,Male,Chicago,Savings,14467.79
+609,Customer-609,52,Female,Los Angeles,Current,28716.87
+610,Customer-610,67,Female,Miami,Business,6547.34
+611,Customer-611,25,Female,Miami,Current,27560.13
+612,Customer-612,66,Male,Houston,Business,11708.55
+613,Customer-613,45,Male,Los Angeles,Current,43865.68
+614,Customer-614,20,Female,Chicago,Current,43247.78
+615,Customer-615,23,Female,New York,Savings,11284.03
+616,Customer-616,65,Female,Miami,Business,21980.19
+617,Customer-617,57,Male,Los Angeles,Savings,40466.58
+618,Customer-618,54,Female,Miami,Current,30246.03
+619,Customer-619,28,Female,Chicago,Current,29064.04
+620,Customer-620,72,Male,Los Angeles,Current,46019.67
+621,Customer-621,35,Male,Los Angeles,Savings,8165.93
+622,Customer-622,38,Male,Houston,Current,7966.41
+623,Customer-623,58,Female,Houston,Current,23147.59
+624,Customer-624,58,Male,Houston,Business,37740.32
+625,Customer-625,62,Female,Houston,Current,17037.17
+626,Customer-626,18,Male,Houston,Business,33543.05
+627,Customer-627,40,Male,Miami,Current,11673.67
+628,Customer-628,45,Male,Houston,Current,16820.39
+629,Customer-629,36,Female,Miami,Business,7399.12
+630,Customer-630,72,Female,Chicago,Business,38350.45
+631,Customer-631,20,Male,Houston,Savings,7087.62
+632,Customer-632,72,Male,Houston,Current,1033.12
+633,Customer-633,45,Male,Los Angeles,Business,15791.41
+634,Customer-634,73,Female,New York,Business,18661.33
+635,Customer-635,23,Female,Los Angeles,Savings,20420.74
+636,Customer-636,37,Male,Houston,Business,5468.76
+637,Customer-637,24,Male,Los Angeles,Current,4819.0
+638,Customer-638,55,Male,Miami,Business,22808.28
+639,Customer-639,18,Female,New York,Current,35007.52
+640,Customer-640,48,Male,Los Angeles,Current,5377.22
+641,Customer-641,69,Male,New York,Current,19010.52
+642,Customer-642,37,Male,Houston,Savings,32437.23
+643,Customer-643,61,Male,New York,Business,28601.27
+644,Customer-644,57,Male,Houston,Current,36399.17
+645,Customer-645,58,Male,Houston,Business,34641.74
+646,Customer-646,73,Male,New York,Savings,7860.64
+647,Customer-647,25,Female,Chicago,Current,16410.68
+648,Customer-648,26,Male,Chicago,Business,5128.19
+649,Customer-649,53,Female,New York,Business,43915.53
+650,Customer-650,31,Male,Houston,Current,32662.32
+651,Customer-651,68,Male,Houston,Current,6524.44
+652,Customer-652,49,Male,Miami,Savings,49357.24
+653,Customer-653,38,Male,Houston,Business,21622.31
+654,Customer-654,52,Male,Houston,Savings,1817.78
+655,Customer-655,22,Male,Chicago,Savings,2951.52
+656,Customer-656,21,Female,Miami,Current,31799.96
+657,Customer-657,50,Female,Houston,Business,20711.59
+658,Customer-658,58,Male,Chicago,Savings,16185.44
+659,Customer-659,50,Male,Los Angeles,Business,17010.76
+660,Customer-660,55,Male,Chicago,Business,22436.82
+661,Customer-661,72,Male,New York,Savings,5224.43
+662,Customer-662,45,Male,Houston,Business,30832.79
+663,Customer-663,37,Male,New York,Savings,35687.13
+664,Customer-664,62,Male,Los Angeles,Current,47697.79
+665,Customer-665,51,Female,Los Angeles,Current,7219.6
+666,Customer-666,67,Female,New York,Savings,17415.54
+667,Customer-667,45,Female,Miami,Savings,13884.53
+668,Customer-668,54,Male,Houston,Current,26028.31
+669,Customer-669,21,Female,Miami,Savings,19016.7
+670,Customer-670,34,Male,Miami,Business,36416.14
+671,Customer-671,32,Male,New York,Savings,12983.02
+672,Customer-672,48,Female,Houston,Savings,9769.09
+673,Customer-673,72,Male,Miami,Business,37292.63
+674,Customer-674,44,Male,Chicago,Savings,21396.57
+675,Customer-675,64,Female,Chicago,Savings,29005.26
+676,Customer-676,25,Male,Los Angeles,Savings,40412.56
+677,Customer-677,20,Female,New York,Current,43435.58
+678,Customer-678,67,Female,Chicago,Savings,28101.48
+679,Customer-679,18,Female,Los Angeles,Current,28626.53
+680,Customer-680,37,Male,Houston,Current,29992.86
+681,Customer-681,49,Male,Miami,Savings,8377.75
+682,Customer-682,44,Male,Los Angeles,Business,17974.76
+683,Customer-683,71,Male,Chicago,Savings,38187.53
+684,Customer-684,42,Female,New York,Savings,26960.91
+685,Customer-685,33,Female,Houston,Savings,48655.4
+686,Customer-686,27,Female,New York,Savings,46142.45
+687,Customer-687,75,Female,Chicago,Current,48753.18
+688,Customer-688,23,Male,Miami,Savings,32223.57
+689,Customer-689,43,Male,Miami,Business,4051.86
+690,Customer-690,60,Male,Los Angeles,Current,13788.56
+691,Customer-691,38,Female,Chicago,Current,23185.13
+692,Customer-692,32,Male,Los Angeles,Savings,39216.91
+693,Customer-693,55,Male,Los Angeles,Savings,9054.37
+694,Customer-694,47,Female,Houston,Savings,27260.3
+695,Customer-695,67,Male,Houston,Current,23703.98
+696,Customer-696,72,Male,New York,Savings,40572.25
+697,Customer-697,37,Male,Los Angeles,Current,8267.87
+698,Customer-698,63,Male,Chicago,Current,26159.52
+699,Customer-699,61,Female,Chicago,Savings,2523.02
+700,Customer-700,43,Female,Miami,Business,27955.92
+701,Customer-701,24,Female,New York,Savings,6951.21
+702,Customer-702,21,Male,Los Angeles,Savings,41360.0
+703,Customer-703,41,Male,Miami,Business,13682.21
+704,Customer-704,70,Male,New York,Savings,10689.77
+705,Customer-705,59,Female,Los Angeles,Savings,45348.82
+706,Customer-706,71,Female,New York,Savings,47171.75
+707,Customer-707,21,Male,Miami,Current,41262.58
+708,Customer-708,43,Female,New York,Current,34477.43
+709,Customer-709,29,Female,Los Angeles,Savings,14474.11
+710,Customer-710,46,Male,New York,Business,31339.65
+711,Customer-711,33,Female,Houston,Current,44256.15
+712,Customer-712,48,Male,New York,Current,19767.75
+713,Customer-713,44,Male,Miami,Savings,31906.97
+714,Customer-714,69,Male,Houston,Business,18596.49
+715,Customer-715,52,Female,Chicago,Business,25617.27
+716,Customer-716,42,Female,Los Angeles,Savings,16625.0
+717,Customer-717,32,Male,Chicago,Savings,40624.04
+718,Customer-718,48,Female,Miami,Savings,48725.01
+719,Customer-719,24,Male,Los Angeles,Current,27150.79
+720,Customer-720,68,Male,Los Angeles,Business,42478.75
+721,Customer-721,69,Female,Chicago,Savings,9628.92
+722,Customer-722,55,Female,Chicago,Business,2382.12
+723,Customer-723,62,Female,Miami,Business,7963.01
+724,Customer-724,30,Female,Miami,Current,9602.28
+725,Customer-725,20,Male,New York,Savings,30481.48
+726,Customer-726,19,Female,New York,Current,45976.91
+727,Customer-727,30,Male,Chicago,Business,9695.53
+728,Customer-728,69,Female,New York,Savings,8237.89
+729,Customer-729,63,Male,New York,Business,43172.8
+730,Customer-730,22,Female,Houston,Business,5950.58
+731,Customer-731,37,Female,Los Angeles,Savings,36885.25
+732,Customer-732,45,Female,Chicago,Savings,35651.96
+733,Customer-733,53,Female,Los Angeles,Business,29858.56
+734,Customer-734,29,Female,Chicago,Business,34736.42
+735,Customer-735,26,Male,New York,Business,47486.21
+736,Customer-736,43,Male,Los Angeles,Business,16592.63
+737,Customer-737,69,Male,Miami,Savings,46897.7
+738,Customer-738,27,Female,New York,Savings,17993.7
+739,Customer-739,38,Male,New York,Business,33831.2
+740,Customer-740,64,Female,Houston,Savings,13995.41
+741,Customer-741,33,Male,Chicago,Current,39563.98
+742,Customer-742,64,Male,New York,Current,22472.79
+743,Customer-743,44,Male,Houston,Current,44206.76
+744,Customer-744,40,Female,New York,Current,39647.77
+745,Customer-745,54,Male,Los Angeles,Current,4611.76
+746,Customer-746,72,Male,Chicago,Savings,16617.13
+747,Customer-747,24,Male,Chicago,Savings,44508.63
+748,Customer-748,28,Male,Miami,Savings,17559.58
+749,Customer-749,57,Female,New York,Current,47179.67
+750,Customer-750,28,Female,Los Angeles,Savings,5961.63
+751,Customer-751,31,Male,Houston,Business,28151.51
+752,Customer-752,64,Female,Chicago,Current,12639.87
+753,Customer-753,21,Female,Miami,Business,42152.87
+754,Customer-754,27,Male,Chicago,Savings,21952.69
+755,Customer-755,36,Female,Los Angeles,Savings,2261.05
+756,Customer-756,28,Female,New York,Current,42344.68
+757,Customer-757,37,Female,Houston,Current,44849.0
+758,Customer-758,34,Male,Miami,Current,10059.18
+759,Customer-759,74,Female,Chicago,Savings,22842.99
+760,Customer-760,34,Female,Houston,Current,12085.87
+761,Customer-761,35,Male,Los Angeles,Business,33705.95
+762,Customer-762,23,Female,Miami,Current,48564.57
+763,Customer-763,55,Male,Miami,Savings,42199.06
+764,Customer-764,70,Female,Miami,Business,43477.81
+765,Customer-765,48,Male,Houston,Current,4868.8
+766,Customer-766,75,Male,Miami,Business,45122.3
+767,Customer-767,69,Male,New York,Current,9471.07
+768,Customer-768,28,Male,Los Angeles,Savings,3091.12
+769,Customer-769,23,Female,Los Angeles,Business,8246.03
+770,Customer-770,56,Female,Chicago,Business,45794.52
+771,Customer-771,22,Male,Houston,Business,20470.39
+772,Customer-772,38,Female,Miami,Current,45940.93
+773,Customer-773,18,Female,New York,Current,8332.47
+774,Customer-774,54,Male,New York,Business,39197.69
+775,Customer-775,68,Female,Miami,Current,44016.78
+776,Customer-776,34,Female,Houston,Business,30839.15
+777,Customer-777,20,Male,Chicago,Current,8048.78
+778,Customer-778,56,Female,New York,Current,44589.14
+779,Customer-779,39,Male,New York,Business,24285.69
+780,Customer-780,35,Female,New York,Current,41051.91
+781,Customer-781,37,Female,Chicago,Current,43053.5
+782,Customer-782,61,Male,Los Angeles,Savings,15723.54
+783,Customer-783,65,Female,Chicago,Current,36711.17
+784,Customer-784,56,Male,Los Angeles,Current,11358.13
+785,Customer-785,70,Female,Houston,Business,43492.26
+786,Customer-786,70,Male,Miami,Savings,4215.23
+787,Customer-787,63,Female,Los Angeles,Business,44087.3
+788,Customer-788,19,Male,Los Angeles,Savings,42011.86
+789,Customer-789,33,Male,Houston,Savings,45983.52
+790,Customer-790,63,Male,Chicago,Current,41351.81
+791,Customer-791,50,Female,New York,Business,2497.6
+792,Customer-792,41,Female,Miami,Current,9701.6
+793,Customer-793,73,Female,Miami,Business,18138.24
+794,Customer-794,28,Female,New York,Current,2345.07
+795,Customer-795,21,Male,Miami,Savings,42998.45
+796,Customer-796,59,Male,Los Angeles,Current,32927.78
+797,Customer-797,50,Male,New York,Current,45664.26
+798,Customer-798,59,Male,Miami,Savings,11964.73
+799,Customer-799,56,Female,Chicago,Current,44878.67
+800,Customer-800,72,Female,Houston,Current,11692.24
+801,Customer-801,37,Female,Miami,Savings,1360.03
+802,Customer-802,60,Female,Miami,Business,30094.85
+803,Customer-803,36,Female,New York,Current,4128.02
+804,Customer-804,35,Female,Chicago,Current,33149.86
+805,Customer-805,75,Female,Los Angeles,Savings,26347.39
+806,Customer-806,33,Male,Miami,Current,33365.99
+807,Customer-807,61,Male,New York,Business,25371.27
+808,Customer-808,36,Female,Houston,Current,20025.47
+809,Customer-809,20,Male,Chicago,Business,35955.1
+810,Customer-810,61,Female,Chicago,Business,15709.55
+811,Customer-811,28,Male,Chicago,Savings,24068.26
+812,Customer-812,65,Female,Miami,Savings,47399.25
+813,Customer-813,75,Female,New York,Savings,18408.89
+814,Customer-814,65,Female,Houston,Current,19212.44
+815,Customer-815,55,Female,Houston,Savings,24056.29
+816,Customer-816,73,Male,Houston,Savings,25523.39
+817,Customer-817,73,Female,Miami,Current,21242.26
+818,Customer-818,73,Male,Los Angeles,Savings,17790.82
+819,Customer-819,54,Female,Los Angeles,Current,43257.3
+820,Customer-820,29,Male,Houston,Current,31920.61
+821,Customer-821,29,Female,New York,Savings,23150.61
+822,Customer-822,31,Male,Miami,Savings,24989.28
+823,Customer-823,66,Male,Los Angeles,Business,22251.86
+824,Customer-824,45,Female,Houston,Current,19782.5
+825,Customer-825,20,Male,Chicago,Savings,44708.31
+826,Customer-826,66,Male,New York,Business,1202.07
+827,Customer-827,64,Male,Los Angeles,Business,43972.27
+828,Customer-828,37,Male,New York,Current,25663.49
+829,Customer-829,37,Male,New York,Savings,15611.91
+830,Customer-830,36,Female,Miami,Business,26681.76
+831,Customer-831,45,Male,Chicago,Current,18603.29
+832,Customer-832,30,Male,Houston,Savings,12192.5
+833,Customer-833,64,Male,Los Angeles,Business,2073.75
+834,Customer-834,50,Male,New York,Current,35844.39
+835,Customer-835,68,Male,Houston,Business,13533.67
+836,Customer-836,52,Male,Miami,Savings,33436.53
+837,Customer-837,59,Male,New York,Business,6673.7
+838,Customer-838,46,Female,New York,Business,13384.18
+839,Customer-839,62,Male,Los Angeles,Business,34601.26
+840,Customer-840,18,Female,Houston,Business,5948.01
+841,Customer-841,51,Female,Miami,Business,35335.59
+842,Customer-842,44,Male,Miami,Business,31267.2
+843,Customer-843,36,Male,New York,Current,10733.69
+844,Customer-844,30,Female,Miami,Savings,18538.17
+845,Customer-845,44,Female,Los Angeles,Savings,27858.8
+846,Customer-846,31,Female,Chicago,Savings,1134.16
+847,Customer-847,60,Male,New York,Business,33782.07
+848,Customer-848,27,Male,Miami,Savings,36454.62
+849,Customer-849,24,Female,Los Angeles,Current,49444.63
+850,Customer-850,36,Female,Houston,Savings,5890.64
+851,Customer-851,29,Male,Chicago,Current,40278.21
+852,Customer-852,38,Female,New York,Savings,42711.05
+853,Customer-853,74,Male,New York,Savings,33504.4
+854,Customer-854,28,Female,Chicago,Current,47799.37
+855,Customer-855,35,Male,Chicago,Current,9960.6
+856,Customer-856,43,Female,Houston,Current,41949.71
+857,Customer-857,62,Female,Houston,Business,44420.07
+858,Customer-858,28,Male,Los Angeles,Business,36594.14
+859,Customer-859,72,Male,New York,Current,45650.11
+860,Customer-860,48,Female,Los Angeles,Business,19607.79
+861,Customer-861,40,Male,Los Angeles,Current,46099.5
+862,Customer-862,25,Female,Houston,Savings,4103.47
+863,Customer-863,59,Female,New York,Business,43548.28
+864,Customer-864,51,Male,Chicago,Business,26632.06
+865,Customer-865,62,Male,Houston,Business,36605.95
+866,Customer-866,48,Female,Houston,Savings,42112.62
+867,Customer-867,53,Male,New York,Business,46784.2
+868,Customer-868,50,Female,Houston,Savings,4668.4
+869,Customer-869,49,Female,Los Angeles,Current,48537.11
+870,Customer-870,21,Male,Miami,Business,19553.24
+871,Customer-871,70,Male,New York,Current,22765.25
+872,Customer-872,54,Female,New York,Current,22906.34
+873,Customer-873,25,Female,New York,Savings,20768.54
+874,Customer-874,20,Male,New York,Business,48195.39
+875,Customer-875,58,Female,Miami,Business,11135.71
+876,Customer-876,60,Female,Chicago,Current,41440.24
+877,Customer-877,70,Male,Houston,Current,28447.39
+878,Customer-878,57,Female,Chicago,Business,23174.09
+879,Customer-879,24,Male,New York,Current,18401.81
+880,Customer-880,58,Female,Miami,Business,19320.63
+881,Customer-881,24,Male,Los Angeles,Current,7882.01
+882,Customer-882,63,Female,New York,Current,30931.74
+883,Customer-883,30,Male,Houston,Savings,23395.25
+884,Customer-884,68,Male,Chicago,Savings,38100.32
+885,Customer-885,20,Male,Houston,Current,33264.38
+886,Customer-886,50,Male,Houston,Savings,26987.85
+887,Customer-887,21,Female,Miami,Current,46294.17
+888,Customer-888,67,Male,Miami,Savings,36794.24
+889,Customer-889,26,Male,Houston,Business,30426.76
+890,Customer-890,74,Female,Miami,Current,21514.57
+891,Customer-891,56,Male,Chicago,Current,48216.08
+892,Customer-892,36,Female,Los Angeles,Savings,21224.53
+893,Customer-893,62,Female,Miami,Current,35881.84
+894,Customer-894,53,Male,Los Angeles,Savings,31584.21
+895,Customer-895,36,Female,Los Angeles,Business,32854.23
+896,Customer-896,29,Female,New York,Current,28551.73
+897,Customer-897,55,Female,Miami,Current,43996.38
+898,Customer-898,45,Male,Miami,Savings,2238.33
+899,Customer-899,27,Male,New York,Savings,14081.94
+900,Customer-900,68,Male,Chicago,Business,13277.49
+901,Customer-901,71,Male,Chicago,Savings,37926.1
+902,Customer-902,20,Female,Houston,Savings,31189.33
+903,Customer-903,61,Male,Miami,Current,12642.18
+904,Customer-904,68,Female,New York,Current,19990.18
+905,Customer-905,68,Female,Miami,Savings,1635.3
+906,Customer-906,34,Male,Miami,Current,41669.19
+907,Customer-907,58,Female,Miami,Business,37184.05
+908,Customer-908,30,Male,Chicago,Current,9693.87
+909,Customer-909,61,Male,Los Angeles,Savings,37018.89
+910,Customer-910,25,Female,New York,Current,14676.5
+911,Customer-911,34,Male,Los Angeles,Business,42454.7
+912,Customer-912,18,Female,Houston,Business,46937.23
+913,Customer-913,20,Male,Chicago,Business,3491.92
+914,Customer-914,58,Female,Houston,Business,27957.85
+915,Customer-915,22,Female,Miami,Savings,47892.4
+916,Customer-916,51,Male,Miami,Savings,21380.63
+917,Customer-917,52,Female,New York,Current,11838.71
+918,Customer-918,31,Female,Chicago,Current,15385.14
+919,Customer-919,66,Female,Miami,Business,1431.38
+920,Customer-920,60,Female,Houston,Savings,45320.33
+921,Customer-921,57,Male,New York,Business,44397.35
+922,Customer-922,42,Male,Houston,Current,27471.63
+923,Customer-923,36,Male,Miami,Current,26201.14
+924,Customer-924,50,Female,Houston,Savings,15525.26
+925,Customer-925,59,Male,Chicago,Business,5034.93
+926,Customer-926,24,Male,Miami,Business,1359.2
+927,Customer-927,22,Male,Los Angeles,Business,21786.26
+928,Customer-928,24,Male,Miami,Business,44053.22
+929,Customer-929,65,Female,New York,Business,34616.13
+930,Customer-930,19,Female,Chicago,Savings,5288.52
+931,Customer-931,21,Male,Chicago,Business,4451.66
+932,Customer-932,70,Male,Chicago,Current,20013.6
+933,Customer-933,58,Female,Houston,Current,1827.66
+934,Customer-934,61,Male,Miami,Savings,32429.71
+935,Customer-935,57,Male,Miami,Savings,35343.22
+936,Customer-936,22,Female,Miami,Savings,15201.99
+937,Customer-937,61,Female,Miami,Savings,14794.35
+938,Customer-938,46,Female,Houston,Business,2510.14
+939,Customer-939,28,Male,Los Angeles,Business,20158.64
+940,Customer-940,69,Female,Los Angeles,Current,34187.16
+941,Customer-941,68,Female,New York,Business,43863.58
+942,Customer-942,27,Male,New York,Savings,29063.21
+943,Customer-943,43,Male,Chicago,Savings,37666.53
+944,Customer-944,75,Female,Los Angeles,Current,45375.77
+945,Customer-945,72,Male,Los Angeles,Savings,11818.61
+946,Customer-946,71,Female,Los Angeles,Savings,9886.54
+947,Customer-947,69,Male,Miami,Current,32589.05
+948,Customer-948,22,Female,New York,Current,5811.92
+949,Customer-949,64,Female,Chicago,Current,7282.54
+950,Customer-950,59,Male,New York,Current,31356.27
+951,Customer-951,75,Male,Chicago,Current,23081.65
+952,Customer-952,57,Female,Miami,Savings,28712.05
+953,Customer-953,41,Female,Houston,Savings,1236.76
+954,Customer-954,33,Male,Houston,Current,42165.39
+955,Customer-955,26,Female,Houston,Current,22822.54
+956,Customer-956,67,Female,Houston,Business,6332.8
+957,Customer-957,59,Male,Chicago,Savings,44673.55
+958,Customer-958,30,Female,New York,Business,4694.6
+959,Customer-959,19,Male,Miami,Business,20851.59
+960,Customer-960,55,Male,New York,Business,13770.2
+961,Customer-961,75,Female,Los Angeles,Current,20232.42
+962,Customer-962,75,Female,Los Angeles,Current,25555.04
+963,Customer-963,23,Female,Chicago,Business,1518.99
+964,Customer-964,33,Male,Miami,Savings,22864.8
+965,Customer-965,29,Male,Houston,Current,2980.57
+966,Customer-966,66,Female,Los Angeles,Savings,13953.5
+967,Customer-967,32,Male,Los Angeles,Business,45478.58
+968,Customer-968,41,Female,Houston,Current,44196.05
+969,Customer-969,20,Female,New York,Business,48453.63
+970,Customer-970,58,Female,Chicago,Business,27673.15
+971,Customer-971,29,Female,Houston,Current,29796.26
+972,Customer-972,75,Male,Miami,Current,19440.11
+973,Customer-973,32,Female,Chicago,Current,24856.22
+974,Customer-974,48,Male,Miami,Savings,22555.04
+975,Customer-975,32,Male,Miami,Business,14759.67
+976,Customer-976,27,Male,Los Angeles,Current,30498.99
+977,Customer-977,70,Male,Los Angeles,Current,40747.46
+978,Customer-978,64,Male,Houston,Business,24461.92
+979,Customer-979,31,Male,Houston,Savings,12939.85
+980,Customer-980,26,Male,Los Angeles,Business,26119.5
+981,Customer-981,75,Male,New York,Savings,13654.72
+982,Customer-982,29,Female,Miami,Business,32243.51
+983,Customer-983,74,Female,New York,Savings,23010.96
+984,Customer-984,48,Female,Los Angeles,Savings,41687.82
+985,Customer-985,56,Male,Miami,Savings,31537.38
+986,Customer-986,50,Female,Los Angeles,Business,34593.97
+987,Customer-987,47,Male,Los Angeles,Current,19887.63
+988,Customer-988,24,Male,Los Angeles,Business,43119.99
+989,Customer-989,50,Female,Los Angeles,Business,5718.63
+990,Customer-990,48,Male,Miami,Business,37866.77
+991,Customer-991,23,Female,Los Angeles,Business,27425.01
+992,Customer-992,18,Female,Miami,Current,19148.5
+993,Customer-993,20,Female,Los Angeles,Current,39688.22
+994,Customer-994,42,Female,Miami,Business,45485.08
+995,Customer-995,71,Male,Houston,Savings,13471.38
+996,Customer-996,67,Male,New York,Current,30316.33
+997,Customer-997,52,Female,Chicago,Savings,1268.0
+998,Customer-998,65,Male,Miami,Business,6773.6
+999,Customer-999,18,Female,Los Angeles,Business,40410.07
+1000,Customer-1000,44,Female,New York,Savings,21877.51
